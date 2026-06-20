@@ -1,16 +1,16 @@
 # TCF Canada
 
-**AI-assisted French speaking practice for Canadian immigration exam preparation.**
+**An AI speaking coach for French immigration exam preparation.**
 
-TCF Canada helps learners build a repeatable speaking practice routine: choose a target level, answer realistic French prompts, receive structured feedback, and review progress over time.
+TCF Canada helps learners build a repeatable speaking practice routine with AI-generated guidance: choose a target level, answer realistic French prompts, receive structured speaking feedback, and review progress over time.
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
 ## Overview
 
-Preparing for a French speaking exam is difficult without frequent practice and clear feedback. TCF Canada is designed to make that loop simple: practice, understand what needs improvement, and return to targeted speaking work.
+Preparing for a French speaking exam is difficult without frequent practice and clear feedback. TCF Canada uses AI to make that loop simple: practice, understand what needs improvement, and return to targeted speaking work.
 
-The product is built for independent learners who want a focused preparation tool instead of a generic language app.
+The product is built for independent learners who want a focused AI practice tool instead of a generic language app.
 
 ## Who It Is For
 
@@ -19,13 +19,25 @@ The product is built for independent learners who want a focused preparation too
 - Users who want feedback tied to levels such as A1, A2, B1, and B2.
 - Self-study learners who need a lightweight way to review progress and saved practice items.
 
-## Core Product Experience
+## AI Product Experience
+
+### AI Speaking Feedback
+
+TCF Canada turns each practice attempt into actionable feedback. Instead of only giving a score, the product highlights where an answer can become clearer, more fluent, and better organized.
+
+### Level-Aware Guidance
+
+Users can choose a target level such as A1, A2, B1, or B2. The AI feedback experience is designed around helping learners understand the gap between their current answer and their target level.
+
+### Personalized Practice Loop
+
+The product helps learners repeat the most important loop in speaking preparation: answer a prompt, receive guidance, save useful practice items, and return to targeted review.
 
 ### Speaking Practice
 
 Users practice with exam-style French speaking prompts and can build familiarity with common oral-response patterns.
 
-### Level-Oriented Feedback
+### Structured Improvement Notes
 
 Feedback is organized around clarity, fluency, structure, and next-step improvement. The product is designed to help users understand what to improve, not only whether an answer was good or bad.
 
@@ -45,6 +57,7 @@ The product is available on the web, with mobile testing underway for Android an
 
 | Area | Status |
 | --- | --- |
+| AI speaking practice | Active |
 | Web app | Live |
 | Android device testing | Active |
 | iOS release preparation | In progress |
@@ -53,8 +66,9 @@ The product is available on the web, with mobile testing underway for Android an
 
 ## Product Principles
 
+- Make AI feedback practical, specific, and easy to act on.
 - Keep the practice loop fast and focused.
-- Make feedback understandable for non-technical learners.
+- Make speaking improvement understandable for non-technical learners.
 - Prioritize speaking improvement over decorative complexity.
 - Support exam preparation without pretending to replace official exam guidance.
 
