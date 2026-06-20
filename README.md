@@ -6,6 +6,8 @@ TCF Canada helps independent learners practice French speaking with a fast impro
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
+[View Public Landing Page](https://zoetw88.github.io/tcf-canada-showcase/)
+
 ![AI speaking feedback flow](assets/ai-speaking-feedback-flow.gif)
 
 <p align="center"><em>AI-guided practice flow: prompt selection, speaking answer, and level-aware feedback for the next attempt.</em></p>
