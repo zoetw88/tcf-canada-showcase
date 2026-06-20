@@ -10,7 +10,7 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 
 ![AI speaking feedback flow](assets/ai-speaking-feedback-flow.gif)
 
-<p align="center"><em>AI-guided practice flow: question selection, speaking answer, level-aware feedback, and follow-up practice.</em></p>
+<p align="center"><em>AI-guided practice flow: question selection, speaking answer, level-aware feedback, and feedback review.</em></p>
 
 ## Product Snapshot
 

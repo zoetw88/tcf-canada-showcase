@@ -307,7 +307,7 @@ h3 {
   width: 100%;
 }
 
-.followup-callout {
+.feedback-callout {
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid var(--line-strong);
   border-radius: 8px;
@@ -319,7 +319,7 @@ h3 {
   right: 18px;
 }
 
-.followup-callout span {
+.feedback-callout span {
   color: var(--green);
   display: block;
   font-size: 12px;
@@ -328,14 +328,14 @@ h3 {
   text-transform: uppercase;
 }
 
-.followup-callout strong {
+.feedback-callout strong {
   color: var(--ink);
   display: block;
   font-size: 18px;
   line-height: 1.25;
 }
 
-.followup-callout p {
+.feedback-callout p {
   color: var(--muted);
   font-size: 13px;
   font-weight: 750;
@@ -712,7 +712,7 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .followup-callout {
+  .feedback-callout {
     bottom: 12px;
     left: 12px;
     max-width: calc(100% - 24px);
@@ -720,7 +720,7 @@ h3 {
     right: 12px;
   }
 
-  .followup-callout strong {
+  .feedback-callout strong {
     font-size: 15px;
   }
 
