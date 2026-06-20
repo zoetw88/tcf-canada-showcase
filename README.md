@@ -6,6 +6,8 @@ TCF Canada helps learners build a repeatable speaking practice routine with AI-g
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
+![TCF Canada desktop product preview](assets/desktop-preview.png)
+
 ## Overview
 
 Preparing for a French speaking exam is difficult without frequent practice and clear feedback. TCF Canada uses AI to make that loop simple: practice, understand what needs improvement, and return to targeted speaking work.
@@ -53,6 +55,8 @@ Practice history and review flows help users see how their speaking work changes
 
 The product is available on the web, with mobile testing underway for Android and iOS release readiness.
 
+<img src="assets/mobile-preview.png" alt="TCF Canada mobile preview" width="320" />
+
 ## Product Status
 
 | Area | Status |
@@ -71,6 +75,16 @@ The product is available on the web, with mobile testing underway for Android an
 - Make speaking improvement understandable for non-technical learners.
 - Prioritize speaking improvement over decorative complexity.
 - Support exam preparation without pretending to replace official exam guidance.
+
+## Privacy & Safety
+
+TCF Canada is designed with privacy and exam-prep safety in mind:
+
+- Practice feedback is presented as learning guidance, not an official exam score.
+- Account controls include data export and account deletion readiness.
+- The product avoids publishing private user information in public materials.
+- Public showcases do not expose source code, credentials, model prompts, internal operations, or release artifacts.
+- Monitoring is used to improve reliability while keeping private operational details out of public documentation.
 
 ## Built By
 
