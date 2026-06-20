@@ -27,11 +27,17 @@
         <span>SpeakCanada AI</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#product">Product</a>
-        <a href="#ai">AI feedback</a>
-        <a href="#readiness">Study flow</a>
-        <a href="#privacy">Privacy</a>
+        <a href="#product" data-i18n="nav.product">Product</a>
+        <a href="#ai" data-i18n="nav.ai">AI feedback</a>
+        <a href="#readiness" data-i18n="nav.flow">Study flow</a>
+        <a href="#privacy" data-i18n="nav.privacy">Privacy</a>
       </nav>
+      <div class="language-switcher" aria-label="Language selector">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="zh-Hant" aria-pressed="false">繁</button>
+        <button type="button" data-lang="zh-Hans" aria-pressed="false">简</button>
+        <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
     </header>
 
     <main id="top">
@@ -39,45 +45,45 @@
         <div class="hero-copy">
           <div class="market-badge">
             <img src="assets/canada-flag.svg" alt="Canada flag" />
-            Canada-focused French speaking preparation
+            <span data-i18n="hero.badge">Canada-focused French speaking preparation</span>
           </div>
-          <p class="eyebrow">Past-exam inspired speaking practice with AI interaction</p>
-          <h1>Organize past speaking prompts into focused AI practice.</h1>
-          <p class="hero-text">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Past-exam inspired speaking practice with AI interaction</p>
+          <h1 data-i18n="hero.title">Organize past speaking prompts into focused AI practice.</h1>
+          <p class="hero-text" data-i18n="hero.text">
             SpeakCanada AI helps independent learners practice from past-exam inspired French
             speaking prompts, classify related topics, save reusable examples, and use AI
             follow-up questions to turn each answer into the next practice target.
           </p>
           <div class="hero-actions">
-            <a class="primary-action" href="https://tcf-canada-gamma.vercel.app">Launch web app</a>
+            <a class="primary-action" href="https://tcf-canada-gamma.vercel.app" data-i18n="hero.launch">Launch web app</a>
           </div>
           <div class="qr-grid hero-qr-grid" aria-label="Future mobile testing access">
             <div class="qr-placeholder">
               <span>Android</span>
               <div aria-hidden="true"></div>
-              <p>Testing QR reserved</p>
+              <p data-i18n="hero.androidQr">Testing QR reserved</p>
             </div>
             <div class="qr-placeholder">
               <span>iOS</span>
               <div aria-hidden="true"></div>
-              <p>TestFlight QR reserved</p>
+              <p data-i18n="hero.iosQr">TestFlight QR reserved</p>
             </div>
           </div>
-          <p class="hero-note">
+          <p class="hero-note" data-i18n="hero.note">
             Independent study product. AI feedback is learning guidance, not an official score.
           </p>
           <div class="metrics" aria-label="Product highlights">
             <div>
-              <strong>Past prompts</strong>
-              <span>organized by topic</span>
+              <strong data-i18n="metric.past">Past prompts</strong>
+              <span data-i18n="metric.pastSub">organized by topic</span>
             </div>
             <div>
-              <strong>AI follow-up</strong>
-              <span>interactive turns</span>
+              <strong data-i18n="metric.follow">AI follow-up</strong>
+              <span data-i18n="metric.followSub">interactive turns</span>
             </div>
             <div>
-              <strong>Saved examples</strong>
-              <span>related practice</span>
+              <strong data-i18n="metric.saved">Saved examples</strong>
+              <span data-i18n="metric.savedSub">related practice</span>
             </div>
           </div>
         </div>
@@ -88,16 +94,16 @@
               <span></span>
               <span></span>
               <span></span>
-              <strong>Product practice loop</strong>
+              <strong data-i18n="demo.toolbar">Product practice loop</strong>
             </div>
             <img src="assets/ai-speaking-feedback-flow.gif" alt="Animated real app flow showing prompt bank, topic classification, AI follow-up questions, and saved examples" />
             <div class="followup-callout" aria-label="AI follow-up question highlight">
-              <span>Real product loop</span>
-              <strong>Past prompts, topic groups, AI follow-up, saved examples.</strong>
-              <p>The GIF shows the same product points with actual app screens.</p>
+              <span data-i18n="demo.calloutLabel">Real product loop</span>
+              <strong data-i18n="demo.calloutTitle">Past prompts, topic groups, AI follow-up, saved examples.</strong>
+              <p data-i18n="demo.calloutText">The GIF shows the same product points with actual app screens.</p>
             </div>
           </div>
-          <div class="demo-caption">
+          <div class="demo-caption" data-i18n="demo.caption">
             Real app GIF: prompt bank -> topic grouping -> AI follow-up -> saved examples
           </div>
         </div>
@@ -105,38 +111,38 @@
 
       <section class="section compact" id="product">
         <div class="section-heading">
-          <p class="eyebrow">Product workflow</p>
-          <h2>From past prompt patterns to related practice loops.</h2>
+          <p class="eyebrow" data-i18n="workflow.eyebrow">Product workflow</p>
+          <h2 data-i18n="workflow.title">From past prompt patterns to related practice loops.</h2>
         </div>
         <div class="workflow" aria-label="SpeakCanada AI practice workflow">
           <article>
             <span>01</span>
-            <h3>Browse prompt patterns</h3>
-            <p>Past-exam inspired speaking prompts are collected into a practical study bank.</p>
+            <h3 data-i18n="workflow.oneTitle">Browse prompt patterns</h3>
+            <p data-i18n="workflow.oneText">Past-exam inspired speaking prompts are collected into a practical study bank.</p>
           </article>
           <article>
             <span>02</span>
-            <h3>Filter by topic</h3>
-            <p>Questions are classified by task, topic, subtopic, and similar prompt groups.</p>
+            <h3 data-i18n="workflow.twoTitle">Filter by topic</h3>
+            <p data-i18n="workflow.twoText">Questions are classified by task, topic, subtopic, and similar prompt groups.</p>
           </article>
           <article>
             <span>03</span>
-            <h3>Practice with AI turns</h3>
-            <p>AI feedback creates follow-up questions so one answer becomes a short interaction.</p>
+            <h3 data-i18n="workflow.threeTitle">Practice with AI turns</h3>
+            <p data-i18n="workflow.threeText">AI feedback creates follow-up questions so one answer becomes a short interaction.</p>
           </article>
           <article>
             <span>04</span>
-            <h3>Save examples</h3>
-            <p>Reusable personal examples help the app recommend related prompts for review.</p>
+            <h3 data-i18n="workflow.fourTitle">Save examples</h3>
+            <p data-i18n="workflow.fourText">Reusable personal examples help the app recommend related prompts for review.</p>
           </article>
         </div>
       </section>
 
       <section class="section evidence" aria-label="Real product evidence">
         <div class="section-heading">
-          <p class="eyebrow">Real product screens</p>
-          <h2>The key claims are shown with actual app screens.</h2>
-          <p>
+          <p class="eyebrow" data-i18n="evidence.eyebrow">Real product screens</p>
+          <h2 data-i18n="evidence.title">The key claims are shown with actual app screens.</h2>
+          <p data-i18n="evidence.text">
             The public page uses real product captures: prompt bank organization, AI follow-up
             practice, saved examples, and mobile review flow.
           </p>
@@ -145,33 +151,33 @@
           <article>
             <img src="assets/product-question-bank.png" alt="Real product screen showing categorized past-exam inspired prompt bank" />
             <div>
-              <span>Prompt bank</span>
-              <h3>Past-exam inspired questions organized by topic.</h3>
-              <p>Task, time, topic, source, and similar prompt groups help learners find focused practice.</p>
+              <span data-i18n="evidence.bankLabel">Prompt bank</span>
+              <h3 data-i18n="evidence.bankTitle">Past-exam inspired questions organized by topic.</h3>
+              <p data-i18n="evidence.bankText">Task, time, topic, source, and similar prompt groups help learners find focused practice.</p>
             </div>
           </article>
           <article>
             <img src="assets/interactive-follow-up.png" alt="Real product screen showing AI follow-up question after an answer" />
             <div>
-              <span>AI interaction</span>
-              <h3>AI follow-up questions after a French answer.</h3>
-              <p>One answer can continue into targeted follow-up practice instead of ending as a static score.</p>
+              <span data-i18n="evidence.aiLabel">AI interaction</span>
+              <h3 data-i18n="evidence.aiTitle">AI follow-up questions after a French answer.</h3>
+              <p data-i18n="evidence.aiText">One answer can continue into targeted follow-up practice instead of ending as a static score.</p>
             </div>
           </article>
           <article>
             <img src="assets/product-saved-examples.png" alt="Real product screen showing reusable speaking examples panel" />
             <div>
-              <span>Saved examples</span>
-              <h3>Reusable examples stay beside the speaking prompt.</h3>
-              <p>Learners can save useful personal examples and adapt them to related topics later.</p>
+              <span data-i18n="evidence.savedLabel">Saved examples</span>
+              <h3 data-i18n="evidence.savedTitle">Reusable examples stay beside the speaking prompt.</h3>
+              <p data-i18n="evidence.savedText">Learners can save useful personal examples and adapt them to related topics later.</p>
             </div>
           </article>
           <article>
             <img src="assets/mobile-preview.png" alt="Real mobile product screen for practice review" />
             <div>
-              <span>Mobile flow</span>
-              <h3>Practice and review continue on smaller screens.</h3>
-              <p>The core loop stays available for mobile testing and future app-store rollout.</p>
+              <span data-i18n="evidence.mobileLabel">Mobile flow</span>
+              <h3 data-i18n="evidence.mobileTitle">Practice and review continue on smaller screens.</h3>
+              <p data-i18n="evidence.mobileText">The core loop stays available for mobile testing and future app-store rollout.</p>
             </div>
           </article>
         </div>
@@ -179,32 +185,32 @@
 
       <section class="split-section" id="ai">
         <div>
-          <p class="eyebrow">AI interaction and topic memory</p>
-          <h2>Practice one answer, then continue with focused follow-up questions.</h2>
-          <p>
+          <p class="eyebrow" data-i18n="ai.eyebrow">AI interaction and topic memory</p>
+          <h2 data-i18n="ai.title">Practice one answer, then continue with focused follow-up questions.</h2>
+          <p data-i18n="ai.text">
             SpeakCanada AI is designed for learners who practice alone but still need interaction.
             After an answer, the app can generate follow-up questions, connect the attempt to
             similar prompt groups, and keep saved examples available for future topics.
           </p>
           <ul class="check-list">
-            <li>Past-exam inspired speaking prompts without claiming official affiliation</li>
-            <li>Interactive AI follow-up questions after a French answer</li>
-            <li>Topic classification for task, theme, subtopic, and similar prompts</li>
-            <li>Saved personal examples that support related question recommendations</li>
+            <li data-i18n="ai.itemOne">Past-exam inspired speaking prompts without claiming official affiliation</li>
+            <li data-i18n="ai.itemTwo">Interactive AI follow-up questions after a French answer</li>
+            <li data-i18n="ai.itemThree">Topic classification for task, theme, subtopic, and similar prompts</li>
+            <li data-i18n="ai.itemFour">Saved personal examples that support related question recommendations</li>
           </ul>
         </div>
         <figure class="product-preview">
           <img class="desktop-preview" src="assets/interactive-follow-up.png" alt="Real product follow-up question preview" />
-          <figcaption>Real app follow-up screen: AI turns the answer into the next practice target.</figcaption>
+          <figcaption data-i18n="ai.caption">Real app follow-up screen: AI turns the answer into the next practice target.</figcaption>
         </figure>
       </section>
 
       <section class="split-section mobile-section" id="readiness">
         <img class="phone-preview" src="assets/mobile-preview.png" alt="Mobile product preview" />
         <div>
-          <p class="eyebrow">Practice, review, repeat</p>
-          <h2>Save useful examples and find related questions faster.</h2>
-          <p>
+          <p class="eyebrow" data-i18n="readiness.eyebrow">Practice, review, repeat</p>
+          <h2 data-i18n="readiness.title">Save useful examples and find related questions faster.</h2>
+          <p data-i18n="readiness.text">
             The experience stays focused on the learner's next useful action: pick a categorized
             speaking question, answer in French, save a reusable example, and return to related
             prompts that practice the same theme from another angle.
@@ -214,9 +220,9 @@
 
       <section class="section safety" id="privacy">
         <div class="section-heading">
-          <p class="eyebrow">Privacy and safety</p>
-          <h2>Public showcase, private implementation.</h2>
-          <p>
+          <p class="eyebrow" data-i18n="privacy.eyebrow">Privacy and safety</p>
+          <h2 data-i18n="privacy.title">Public showcase, private implementation.</h2>
+          <p data-i18n="privacy.text">
             This page presents the product experience without exposing source code,
             credentials, internal prompts, operational details, release artifacts, or
             private user data.
@@ -224,16 +230,16 @@
         </div>
         <div class="safety-grid">
           <article>
-            <h3>Clear AI boundaries</h3>
-            <p>Feedback is learning support, not an official exam result or guarantee.</p>
+            <h3 data-i18n="privacy.oneTitle">Clear AI boundaries</h3>
+            <p data-i18n="privacy.oneText">Feedback is learning support, not an official exam result or guarantee.</p>
           </article>
           <article>
-            <h3>Private by design</h3>
-            <p>Public materials avoid sensitive implementation and account details.</p>
+            <h3 data-i18n="privacy.twoTitle">Private by design</h3>
+            <p data-i18n="privacy.twoText">Public materials avoid sensitive implementation and account details.</p>
           </article>
           <article>
-            <h3>Independent product</h3>
-            <p>
+            <h3 data-i18n="privacy.threeTitle">Independent product</h3>
+            <p data-i18n="privacy.threeText">
               SpeakCanada AI is not affiliated with France Education International, any official
               exam provider, or any government agency.
             </p>
@@ -244,9 +250,348 @@
 
     <footer class="site-footer">
       <p>
-        Built by <a href="https://github.com/zoetw88">Zoe</a> as an independent AI speaking
-        practice product.
+        <span data-i18n="footer.builtPrefix">Built by</span>
+        <a href="https://github.com/zoetw88">Zoe</a>
+        <span data-i18n="footer.builtSuffix">as an independent AI speaking practice product.</span>
       </p>
     </footer>
+    <script>
+      const translations = {
+        en: {
+          "nav.product": "Product",
+          "nav.ai": "AI feedback",
+          "nav.flow": "Study flow",
+          "nav.privacy": "Privacy",
+          "hero.badge": "Canada-focused French speaking preparation",
+          "hero.eyebrow": "Past-exam inspired speaking practice with AI interaction",
+          "hero.title": "Organize past speaking prompts into focused AI practice.",
+          "hero.text": "SpeakCanada AI helps independent learners practice from past-exam inspired French speaking prompts, classify related topics, save reusable examples, and use AI follow-up questions to turn each answer into the next practice target.",
+          "hero.launch": "Launch web app",
+          "hero.androidQr": "Testing QR reserved",
+          "hero.iosQr": "TestFlight QR reserved",
+          "hero.note": "Independent study product. AI feedback is learning guidance, not an official score.",
+          "metric.past": "Past prompts",
+          "metric.pastSub": "organized by topic",
+          "metric.follow": "AI follow-up",
+          "metric.followSub": "interactive turns",
+          "metric.saved": "Saved examples",
+          "metric.savedSub": "related practice",
+          "demo.toolbar": "Product practice loop",
+          "demo.calloutLabel": "Real product loop",
+          "demo.calloutTitle": "Past prompts, topic groups, AI follow-up, saved examples.",
+          "demo.calloutText": "The GIF shows the same product points with actual app screens.",
+          "demo.caption": "Real app GIF: prompt bank -> topic grouping -> AI follow-up -> saved examples",
+          "workflow.eyebrow": "Product workflow",
+          "workflow.title": "From past prompt patterns to related practice loops.",
+          "workflow.oneTitle": "Browse prompt patterns",
+          "workflow.oneText": "Past-exam inspired speaking prompts are collected into a practical study bank.",
+          "workflow.twoTitle": "Filter by topic",
+          "workflow.twoText": "Questions are classified by task, topic, subtopic, and similar prompt groups.",
+          "workflow.threeTitle": "Practice with AI turns",
+          "workflow.threeText": "AI feedback creates follow-up questions so one answer becomes a short interaction.",
+          "workflow.fourTitle": "Save examples",
+          "workflow.fourText": "Reusable personal examples help the app recommend related prompts for review.",
+          "evidence.eyebrow": "Real product screens",
+          "evidence.title": "The key claims are shown with actual app screens.",
+          "evidence.text": "The public page uses real product captures: prompt bank organization, AI follow-up practice, saved examples, and mobile review flow.",
+          "evidence.bankLabel": "Prompt bank",
+          "evidence.bankTitle": "Past-exam inspired questions organized by topic.",
+          "evidence.bankText": "Task, time, topic, source, and similar prompt groups help learners find focused practice.",
+          "evidence.aiLabel": "AI interaction",
+          "evidence.aiTitle": "AI follow-up questions after a French answer.",
+          "evidence.aiText": "One answer can continue into targeted follow-up practice instead of ending as a static score.",
+          "evidence.savedLabel": "Saved examples",
+          "evidence.savedTitle": "Reusable examples stay beside the speaking prompt.",
+          "evidence.savedText": "Learners can save useful personal examples and adapt them to related topics later.",
+          "evidence.mobileLabel": "Mobile flow",
+          "evidence.mobileTitle": "Practice and review continue on smaller screens.",
+          "evidence.mobileText": "The core loop stays available for mobile testing and future app-store rollout.",
+          "ai.eyebrow": "AI interaction and topic memory",
+          "ai.title": "Practice one answer, then continue with focused follow-up questions.",
+          "ai.text": "SpeakCanada AI is designed for learners who practice alone but still need interaction. After an answer, the app can generate follow-up questions, connect the attempt to similar prompt groups, and keep saved examples available for future topics.",
+          "ai.itemOne": "Past-exam inspired speaking prompts without claiming official affiliation",
+          "ai.itemTwo": "Interactive AI follow-up questions after a French answer",
+          "ai.itemThree": "Topic classification for task, theme, subtopic, and similar prompts",
+          "ai.itemFour": "Saved personal examples that support related question recommendations",
+          "ai.caption": "Real app follow-up screen: AI turns the answer into the next practice target.",
+          "readiness.eyebrow": "Practice, review, repeat",
+          "readiness.title": "Save useful examples and find related questions faster.",
+          "readiness.text": "The experience stays focused on the learner's next useful action: pick a categorized speaking question, answer in French, save a reusable example, and return to related prompts that practice the same theme from another angle.",
+          "privacy.eyebrow": "Privacy and safety",
+          "privacy.title": "Public showcase, private implementation.",
+          "privacy.text": "This page presents the product experience without exposing source code, credentials, internal prompts, operational details, release artifacts, or private user data.",
+          "privacy.oneTitle": "Clear AI boundaries",
+          "privacy.oneText": "Feedback is learning support, not an official exam result or guarantee.",
+          "privacy.twoTitle": "Private by design",
+          "privacy.twoText": "Public materials avoid sensitive implementation and account details.",
+          "privacy.threeTitle": "Independent product",
+          "privacy.threeText": "SpeakCanada AI is not affiliated with France Education International, any official exam provider, or any government agency.",
+          "footer.builtPrefix": "Built by",
+          "footer.builtSuffix": "as an independent AI speaking practice product."
+        },
+        "zh-Hant": {
+          "nav.product": "產品",
+          "nav.ai": "AI 回饋",
+          "nav.flow": "練習流程",
+          "nav.privacy": "隱私",
+          "hero.badge": "面向加拿大法語口說準備",
+          "hero.eyebrow": "整理過去題目方向，搭配 AI 互動練習",
+          "hero.title": "把過去口說題型整理成更聚焦的 AI 練習。",
+          "hero.text": "SpeakCanada AI 幫助自學者用整理過的法語口說題目方向練習，依主題分類題目、保存可重用例子，並透過 AI 追問把每次回答延伸成下一個練習目標。",
+          "hero.launch": "開啟 Web App",
+          "hero.androidQr": "測試 QR 預留",
+          "hero.iosQr": "TestFlight QR 預留",
+          "hero.note": "獨立學習產品。AI 回饋是練習建議，不是官方分數。",
+          "metric.past": "過去題目方向",
+          "metric.pastSub": "依主題整理",
+          "metric.follow": "AI 追問",
+          "metric.followSub": "互動回合",
+          "metric.saved": "保存例子",
+          "metric.savedSub": "推薦相關練習",
+          "demo.toolbar": "產品練習流程",
+          "demo.calloutLabel": "真實產品流程",
+          "demo.calloutTitle": "過去題目、主題分類、AI 追問、保存例子。",
+          "demo.calloutText": "這個 GIF 用真實產品畫面呈現同樣的重點。",
+          "demo.caption": "真實 App GIF：題庫 -> 主題分類 -> AI 追問 -> 保存例子",
+          "workflow.eyebrow": "產品流程",
+          "workflow.title": "從過去題型方向到相關題目練習循環。",
+          "workflow.oneTitle": "瀏覽題型方向",
+          "workflow.oneText": "整理過去考題方向，變成可實際練習的口說題庫。",
+          "workflow.twoTitle": "依主題篩選",
+          "workflow.twoText": "題目依任務、主題、子主題和相似題型分組。",
+          "workflow.threeTitle": "用 AI 互動練習",
+          "workflow.threeText": "AI 回饋會產生追問，讓一次回答延伸成短互動。",
+          "workflow.fourTitle": "保存例子",
+          "workflow.fourText": "可重用的個人例子能幫助 App 推薦相關題目複習。",
+          "evidence.eyebrow": "真實產品畫面",
+          "evidence.title": "每個重點都用實際 App 截圖呈現。",
+          "evidence.text": "公開頁使用真實產品截圖：題庫整理、AI 追問練習、保存例子，以及手機檢視流程。",
+          "evidence.bankLabel": "題庫",
+          "evidence.bankTitle": "過去題目方向依主題整理。",
+          "evidence.bankText": "任務、時間、主題、來源和相似題型，幫助學習者找到更聚焦的練習。",
+          "evidence.aiLabel": "AI 互動",
+          "evidence.aiTitle": "回答法語後產生 AI 追問。",
+          "evidence.aiText": "一次回答可以繼續變成有目標的追問練習，而不是只停在分數。",
+          "evidence.savedLabel": "保存例子",
+          "evidence.savedTitle": "可重用例子會留在口說題旁邊。",
+          "evidence.savedText": "學習者可以保存好用的個人例子，之後套用到相關主題。",
+          "evidence.mobileLabel": "手機流程",
+          "evidence.mobileTitle": "小螢幕也能繼續練習與複習。",
+          "evidence.mobileText": "核心練習循環可延伸到手機測試與未來上架。",
+          "ai.eyebrow": "AI 互動與題目記憶",
+          "ai.title": "練一次回答，再接著練聚焦追問。",
+          "ai.text": "SpeakCanada AI 是為自己練習但仍需要互動的學習者設計。回答後，App 可以產生追問、連結相似題型，並保留保存例子給未來主題使用。",
+          "ai.itemOne": "整理過去考題方向，但不宣稱官方關係",
+          "ai.itemTwo": "法語回答後的互動式 AI 追問",
+          "ai.itemThree": "依任務、主題、子主題與相似題型分類",
+          "ai.itemFour": "保存個人例子，支援相關題目推薦",
+          "ai.caption": "真實 App 追問畫面：AI 把回答轉成下一個練習目標。",
+          "readiness.eyebrow": "練習、複習、再練習",
+          "readiness.title": "保存好用例子，更快找到相關題目。",
+          "readiness.text": "體驗聚焦在學習者下一步：選一題分類口說題、用法語回答、保存可重用例子，再回到相同主題的相關題目練習。",
+          "privacy.eyebrow": "隱私與安全",
+          "privacy.title": "公開展示產品體驗，保留私有實作。",
+          "privacy.text": "這個頁面展示產品體驗，但不公開原始碼、憑證、內部 prompt、營運細節、發佈 artifact 或私人使用者資料。",
+          "privacy.oneTitle": "清楚的 AI 邊界",
+          "privacy.oneText": "回饋是學習輔助，不是官方考試結果或保證。",
+          "privacy.twoTitle": "隱私優先",
+          "privacy.twoText": "公開素材避免暴露敏感實作與帳號細節。",
+          "privacy.threeTitle": "獨立產品",
+          "privacy.threeText": "SpeakCanada AI 與 France Education International、任何官方考試單位或政府機構皆無隸屬關係。",
+          "footer.builtPrefix": "由",
+          "footer.builtSuffix": "打造，作為獨立 AI 口說練習產品。"
+        },
+        "zh-Hans": {},
+        fr: {}
+      };
+
+      translations["zh-Hans"] = {
+        "nav.product": "产品",
+        "nav.ai": "AI 反馈",
+        "nav.flow": "练习流程",
+        "nav.privacy": "隐私",
+        "hero.badge": "面向加拿大法语口语准备",
+        "hero.eyebrow": "整理过去题目方向，搭配 AI 互动练习",
+        "hero.title": "把过去口语题型整理成更聚焦的 AI 练习。",
+        "hero.text": "SpeakCanada AI 帮助自学者用整理过的法语口语题目方向练习，按主题分类题目、保存可复用例子，并通过 AI 追问把每次回答延伸成下一个练习目标。",
+        "hero.launch": "打开 Web App",
+        "hero.androidQr": "测试 QR 预留",
+        "hero.iosQr": "TestFlight QR 预留",
+        "hero.note": "独立学习产品。AI 反馈是练习建议，不是官方分数。",
+        "metric.past": "过去题目方向",
+        "metric.pastSub": "按主题整理",
+        "metric.follow": "AI 追问",
+        "metric.followSub": "互动回合",
+        "metric.saved": "保存例子",
+        "metric.savedSub": "推荐相关练习",
+        "demo.toolbar": "产品练习流程",
+        "demo.calloutLabel": "真实产品流程",
+        "demo.calloutTitle": "过去题目、主题分类、AI 追问、保存例子。",
+        "demo.calloutText": "这个 GIF 用真实产品画面呈现同样的重点。",
+        "demo.caption": "真实 App GIF：题库 -> 主题分类 -> AI 追问 -> 保存例子",
+        "workflow.eyebrow": "产品流程",
+        "workflow.title": "从过去题型方向到相关题目练习循环。",
+        "workflow.oneTitle": "浏览题型方向",
+        "workflow.oneText": "整理过去考题方向，变成可实际练习的口语题库。",
+        "workflow.twoTitle": "按主题筛选",
+        "workflow.twoText": "题目按任务、主题、子主题和相似题型分组。",
+        "workflow.threeTitle": "用 AI 互动练习",
+        "workflow.threeText": "AI 反馈会生成追问，让一次回答延伸成短互动。",
+        "workflow.fourTitle": "保存例子",
+        "workflow.fourText": "可复用的个人例子能帮助 App 推荐相关题目复习。",
+        "evidence.eyebrow": "真实产品画面",
+        "evidence.title": "每个重点都用实际 App 截图呈现。",
+        "evidence.text": "公开页使用真实产品截图：题库整理、AI 追问练习、保存例子，以及手机查看流程。",
+        "evidence.bankLabel": "题库",
+        "evidence.bankTitle": "过去题目方向按主题整理。",
+        "evidence.bankText": "任务、时间、主题、来源和相似题型，帮助学习者找到更聚焦的练习。",
+        "evidence.aiLabel": "AI 互动",
+        "evidence.aiTitle": "回答法语后生成 AI 追问。",
+        "evidence.aiText": "一次回答可以继续变成有目标的追问练习，而不是只停在分数。",
+        "evidence.savedLabel": "保存例子",
+        "evidence.savedTitle": "可复用例子会留在口语题旁边。",
+        "evidence.savedText": "学习者可以保存好用的个人例子，之后套用到相关主题。",
+        "evidence.mobileLabel": "手机流程",
+        "evidence.mobileTitle": "小屏幕也能继续练习与复习。",
+        "evidence.mobileText": "核心练习循环可延伸到手机测试与未来上架。",
+        "ai.eyebrow": "AI 互动与题目记忆",
+        "ai.title": "练一次回答，再接着练聚焦追问。",
+        "ai.text": "SpeakCanada AI 是为自己练习但仍需要互动的学习者设计。回答后，App 可以生成追问、连接相似题型，并保留保存例子给未来主题使用。",
+        "ai.itemOne": "整理过去考题方向，但不宣称官方关系",
+        "ai.itemTwo": "法语回答后的互动式 AI 追问",
+        "ai.itemThree": "按任务、主题、子主题与相似题型分类",
+        "ai.itemFour": "保存个人例子，支持相关题目推荐",
+        "ai.caption": "真实 App 追问画面：AI 把回答转成下一个练习目标。",
+        "readiness.eyebrow": "练习、复习、再练习",
+        "readiness.title": "保存好用例子，更快找到相关题目。",
+        "readiness.text": "体验聚焦在学习者下一步：选一题分类口语题、用法语回答、保存可复用例子，再回到相同主题的相关题目练习。",
+        "privacy.eyebrow": "隐私与安全",
+        "privacy.title": "公开展示产品体验，保留私有实现。",
+        "privacy.text": "这个页面展示产品体验，但不公开源代码、凭证、内部 prompt、运营细节、发布 artifact 或私人用户资料。",
+        "privacy.oneTitle": "清楚的 AI 边界",
+        "privacy.oneText": "反馈是学习辅助，不是官方考试结果或保证。",
+        "privacy.twoTitle": "隐私优先",
+        "privacy.twoText": "公开素材避免暴露敏感实现与账号细节。",
+        "privacy.threeTitle": "独立产品",
+        "privacy.threeText": "SpeakCanada AI 与 France Education International、任何官方考试单位或政府机构皆无隶属关系。",
+        "footer.builtPrefix": "由",
+        "footer.builtSuffix": "打造，作为独立 AI 口语练习产品。"
+      };
+
+      translations.fr = {
+        ...translations.en,
+        "nav.product": "Produit",
+        "nav.ai": "Retour IA",
+        "nav.flow": "Parcours",
+        "nav.privacy": "Confidentialite",
+        "hero.badge": "Preparation a l'expression orale en francais pour le Canada",
+        "hero.eyebrow": "Entrainement inspire d'anciens sujets avec interaction IA",
+        "hero.title": "Transformer des sujets d'oral en pratique IA ciblee.",
+        "hero.text": "SpeakCanada AI aide les apprenants autonomes a s'entrainer avec des sujets d'oral inspires d'anciens examens, a classer les themes, a sauvegarder des exemples reutilisables et a utiliser les questions de suivi IA pour definir le prochain objectif.",
+        "hero.launch": "Ouvrir l'app web",
+        "hero.androidQr": "QR de test reserve",
+        "hero.iosQr": "QR TestFlight reserve",
+        "hero.note": "Produit d'etude independant. Le retour IA sert de guide d'apprentissage, pas de score officiel.",
+        "metric.past": "Sujets passes",
+        "metric.pastSub": "classes par theme",
+        "metric.follow": "Suivi IA",
+        "metric.followSub": "tours interactifs",
+        "metric.saved": "Exemples sauvegardes",
+        "metric.savedSub": "pratique liee",
+        "demo.toolbar": "Boucle de pratique produit",
+        "demo.calloutLabel": "Vrai parcours produit",
+        "demo.calloutTitle": "Sujets passes, groupes de themes, suivi IA, exemples sauvegardes.",
+        "demo.calloutText": "Le GIF montre ces points avec de vrais ecrans de l'app.",
+        "demo.caption": "GIF reel de l'app : banque de sujets -> groupes de themes -> suivi IA -> exemples sauvegardes",
+        "workflow.eyebrow": "Parcours produit",
+        "workflow.title": "Des tendances de sujets passes aux boucles de pratique liees.",
+        "workflow.oneTitle": "Explorer les types de sujets",
+        "workflow.oneText": "Les sujets d'oral inspires d'anciens examens sont reunis dans une banque de pratique.",
+        "workflow.twoTitle": "Filtrer par theme",
+        "workflow.twoText": "Les questions sont classees par tache, theme, sous-theme et groupes similaires.",
+        "workflow.threeTitle": "Pratiquer avec l'IA",
+        "workflow.threeText": "Le retour IA genere des questions de suivi pour transformer une reponse en courte interaction.",
+        "workflow.fourTitle": "Sauvegarder des exemples",
+        "workflow.fourText": "Les exemples personnels reutilisables aident l'app a recommander des sujets lies.",
+        "evidence.eyebrow": "Vrais ecrans produit",
+        "evidence.title": "Les points cles sont montres avec de vrais ecrans de l'app.",
+        "evidence.text": "La page publique utilise de vraies captures : banque de sujets, suivi IA, exemples sauvegardes et parcours mobile.",
+        "evidence.bankLabel": "Banque de sujets",
+        "evidence.bankTitle": "Questions inspirees d'anciens examens, classees par theme.",
+        "evidence.bankText": "Tache, duree, theme, source et groupes similaires aident a trouver une pratique ciblee.",
+        "evidence.aiLabel": "Interaction IA",
+        "evidence.aiTitle": "Questions de suivi IA apres une reponse en francais.",
+        "evidence.aiText": "Une reponse peut continuer en pratique ciblee au lieu de s'arreter a un score statique.",
+        "evidence.savedLabel": "Exemples sauvegardes",
+        "evidence.savedTitle": "Les exemples reutilisables restent pres du sujet.",
+        "evidence.savedText": "Les apprenants peuvent sauvegarder de bons exemples personnels et les adapter a des themes proches.",
+        "evidence.mobileLabel": "Parcours mobile",
+        "evidence.mobileTitle": "La pratique et la revision continuent sur petit ecran.",
+        "evidence.mobileText": "La boucle principale reste disponible pour les tests mobiles et le futur lancement app-store.",
+        "ai.eyebrow": "Interaction IA et memoire des themes",
+        "ai.title": "Repondre une fois, puis continuer avec des questions de suivi ciblees.",
+        "ai.text": "SpeakCanada AI est concu pour les apprenants qui pratiquent seuls mais veulent de l'interaction. Apres une reponse, l'app peut generer des questions de suivi, relier l'essai a des sujets similaires et garder les exemples sauvegardes pour de futurs themes.",
+        "ai.itemOne": "Sujets d'oral inspires d'anciens examens sans affiliation officielle",
+        "ai.itemTwo": "Questions de suivi IA interactives apres une reponse en francais",
+        "ai.itemThree": "Classement par tache, theme, sous-theme et sujets similaires",
+        "ai.itemFour": "Exemples personnels sauvegardes pour recommander des questions liees",
+        "ai.caption": "Ecran reel de suivi : l'IA transforme la reponse en prochain objectif.",
+        "readiness.eyebrow": "Pratiquer, reviser, recommencer",
+        "readiness.title": "Sauvegarder de bons exemples et retrouver plus vite les questions liees.",
+        "readiness.text": "L'experience reste centree sur la prochaine action utile : choisir une question classee, repondre en francais, sauvegarder un exemple reutilisable, puis revenir a des sujets lies.",
+        "privacy.eyebrow": "Confidentialite et securite",
+        "privacy.title": "Showcase public, implementation privee.",
+        "privacy.text": "Cette page presente l'experience produit sans exposer le code source, les identifiants, les prompts internes, les details operationnels, les artefacts de publication ou les donnees privees.",
+        "privacy.oneTitle": "Limites IA claires",
+        "privacy.oneText": "Le retour est une aide d'apprentissage, pas un resultat officiel ni une garantie.",
+        "privacy.twoTitle": "Prive par conception",
+        "privacy.twoText": "Les supports publics evitent les details sensibles d'implementation et de compte.",
+        "privacy.threeTitle": "Produit independant",
+        "privacy.threeText": "SpeakCanada AI n'est pas affilie a France Education International, a un organisme officiel d'examen ou a une agence gouvernementale.",
+        "footer.builtPrefix": "Cree par",
+        "footer.builtSuffix": "comme produit independant de pratique orale IA."
+      };
+
+      const availableLanguages = ["en", "zh-Hant", "zh-Hans", "fr"];
+      const languageButtons = document.querySelectorAll("[data-lang]");
+
+      function normalizeLanguage(language) {
+        if (language.startsWith("zh-Hant") || language === "zh-TW" || language === "zh-HK") {
+          return "zh-Hant";
+        }
+        if (language.startsWith("zh")) {
+          return "zh-Hans";
+        }
+        if (language.startsWith("fr")) {
+          return "fr";
+        }
+        return "en";
+      }
+
+      function setLanguage(language) {
+        const nextLanguage = availableLanguages.includes(language) ? language : "en";
+        const dictionary = translations[nextLanguage] || translations.en;
+        document.documentElement.lang = nextLanguage;
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          const key = element.getAttribute("data-i18n");
+          element.textContent = dictionary[key] || translations.en[key] || element.textContent;
+        });
+        languageButtons.forEach((button) => {
+          button.setAttribute("aria-pressed", String(button.dataset.lang === nextLanguage));
+        });
+        localStorage.setItem("showcase-language", nextLanguage);
+      }
+
+      languageButtons.forEach((button) => {
+        button.addEventListener("click", () => setLanguage(button.dataset.lang));
+      });
+
+      const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
+      setLanguage(
+        requestedLanguage ||
+          localStorage.getItem("showcase-language") ||
+          normalizeLanguage(navigator.language || "en")
+      );
+    </script>
   </body>
 </html>

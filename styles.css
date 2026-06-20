@@ -47,7 +47,7 @@ img {
   backdrop-filter: blur(18px);
   display: grid;
   gap: 18px;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
   left: 0;
   padding: 16px clamp(20px, 5vw, 72px);
   position: sticky;
@@ -81,6 +81,41 @@ img {
 
 .nav-links a:hover {
   color: var(--ink);
+}
+
+.language-switcher {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 2px;
+  justify-self: end;
+  padding: 3px;
+}
+
+.language-switcher button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 900;
+  min-width: 34px;
+  padding: 7px 8px;
+}
+
+.language-switcher button[aria-pressed="true"] {
+  background: var(--ink);
+  color: #fff;
+}
+
+.language-switcher button:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
 }
 
 .hero {
@@ -594,6 +629,10 @@ h3 {
 }
 
 @media (max-width: 980px) {
+  .site-header {
+    grid-template-columns: 1fr auto;
+  }
+
   .nav-links {
     display: none;
   }
@@ -626,11 +665,22 @@ h3 {
 
 @media (max-width: 640px) {
   .site-header {
-    padding: 14px 18px;
+    gap: 10px;
+    padding: 12px 14px;
   }
 
-  .brand span:last-child {
-    display: none;
+  .brand {
+    font-size: 15px;
+  }
+
+  .language-switcher {
+    max-width: 100%;
+  }
+
+  .language-switcher button {
+    font-size: 11px;
+    min-width: 30px;
+    padding: 7px 6px;
   }
 
   .hero,
