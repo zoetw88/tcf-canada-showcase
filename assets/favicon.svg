@@ -1,5 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="TCF Canada">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SpeakCanada AI">
   <rect width="64" height="64" rx="14" fill="#111827"/>
-  <path d="M16 18h32v8H36v24h-8V26H16z" fill="#ffffff"/>
-  <circle cx="47" cy="47" r="7" fill="#215bd6"/>
+  <text
+    x="32"
+    y="38"
+    fill="#ffffff"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="20"
+    font-weight="700"
+    text-anchor="middle"
+  >SCA</text>
+  <circle cx="50" cy="50" r="6" fill="#215bd6"/>
 </svg>

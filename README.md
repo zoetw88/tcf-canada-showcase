@@ -1,8 +1,8 @@
-# TCF Canada
+# SpeakCanada AI
 
-**AI speaking practice for French immigration exam preparation.**
+**Independent AI speaking practice for TCF Canada preparation.**
 
-TCF Canada helps independent learners practice French speaking with a fast improvement loop: choose a target level, answer realistic prompts, receive AI-guided feedback, and return to focused review.
+SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a target level, answer realistic prompts, receive AI-guided feedback, and return to focused review.
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
@@ -17,7 +17,7 @@ TCF Canada helps independent learners practice French speaking with a fast impro
 | Area | Detail |
 | --- | --- |
 | Product type | AI speaking coach |
-| Audience | Learners preparing for French-speaking immigration exams |
+| Audience | Learners preparing for TCF Canada speaking practice |
 | Core workflow | Practice, feedback, review, repeat |
 | Level targets | A1, A2, B1, B2 |
 | Live product | Web available now |
@@ -27,7 +27,7 @@ TCF Canada helps independent learners practice French speaking with a fast impro
 
 Speaking preparation is difficult to do alone. Learners can read vocabulary lists or complete grammar drills, but after answering a speaking prompt they often still ask the same question: what should I improve next?
 
-TCF Canada is built around that moment. It turns each speaking attempt into a clear review cycle so learners can practice more often, understand their weak points, and return to the prompts that matter.
+SpeakCanada AI is built around that moment. It turns each speaking attempt into a clear review cycle so learners can practice more often, understand their weak points, and return to the prompts that matter.
 
 ## AI Product Experience
 
@@ -59,15 +59,15 @@ The product is designed for frequent use: pick a prompt, answer, review feedback
 
 ## Product Preview
 
-![TCF Canada desktop product preview](assets/desktop-preview.png)
+![SpeakCanada AI desktop product preview](assets/desktop-preview.png)
 
 <p align="center">
-  <img src="assets/mobile-preview.png" alt="TCF Canada mobile preview" width="320" />
+  <img src="assets/mobile-preview.png" alt="SpeakCanada AI mobile preview" width="320" />
 </p>
 
 ## Privacy & Safety
 
-TCF Canada is designed with privacy, safety, and exam-prep clarity in mind:
+SpeakCanada AI is designed with privacy, safety, and exam-prep clarity in mind:
 
 - AI feedback is learning guidance, not an official score or guarantee.
 - Public showcase materials do not include private user data.
@@ -98,10 +98,10 @@ TCF Canada is designed with privacy, safety, and exam-prep clarity in mind:
 
 ## Built By
 
-TCF Canada is an independent product built by **Zoe**.
+SpeakCanada AI is an independent product built by **Zoe**.
 
 This public repository is a product showcase. It demonstrates the product, positioning, visual experience, and launch readiness without publishing the private application source code.
 
 ## Independence Notice
 
-TCF Canada is an independent study product and is not affiliated with, endorsed by, or operated by any official exam provider or government agency.
+SpeakCanada AI is an independent study product and is not affiliated with, endorsed by, or operated by France Education International, any official exam provider, or any government agency. TCF Canada is referenced only to describe the exam preparation context.
