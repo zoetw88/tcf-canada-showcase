@@ -66,20 +66,9 @@ img {
 }
 
 .brand {
-  font-weight: 800;
+  font-size: 17px;
+  font-weight: 900;
   gap: 10px;
-}
-
-.brand-mark {
-  align-items: center;
-  background: #0f172a;
-  border-radius: 6px;
-  color: #fff;
-  display: inline-flex;
-  font-size: 12px;
-  height: 32px;
-  justify-content: center;
-  width: 48px;
 }
 
 .nav-links {
@@ -129,28 +118,6 @@ img {
   letter-spacing: 0;
   margin: 0 0 12px;
   text-transform: uppercase;
-}
-
-.product-badge {
-  align-items: center;
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: #334155;
-  display: inline-flex;
-  font-size: 13px;
-  font-weight: 850;
-  gap: 10px;
-  margin-bottom: 18px;
-  padding: 8px 12px;
-}
-
-.product-badge span {
-  background: var(--green);
-  border-radius: 999px;
-  box-shadow: 0 0 0 5px rgba(14, 124, 102, 0.12);
-  height: 8px;
-  width: 8px;
 }
 
 .market-badge {
@@ -413,28 +380,54 @@ h3 {
   max-height: 700px;
 }
 
-.status-grid {
+.qr-grid {
   display: grid;
-  gap: 12px;
+  gap: 14px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 28px;
 }
 
-.status-grid div {
+.qr-placeholder {
   background: var(--soft);
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--ink);
-  font-weight: 850;
   padding: 18px;
 }
 
-.status-grid span {
+.qr-placeholder span {
   color: var(--amber);
   display: block;
   font-size: 12px;
+  font-weight: 900;
   margin-bottom: 6px;
   text-transform: uppercase;
+}
+
+.qr-placeholder div {
+  align-items: center;
+  background: #fff;
+  border: 1px dashed var(--line-strong);
+  border-radius: 8px;
+  display: flex;
+  height: 124px;
+  justify-content: center;
+  margin: 12px 0;
+}
+
+.qr-placeholder div::after {
+  color: #94a3b8;
+  content: "QR";
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.qr-placeholder p {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.35;
+  margin: 0;
 }
 
 .safety {
@@ -541,14 +534,8 @@ h3 {
 
   .workflow,
   .safety-grid,
-  .status-grid {
+  .qr-grid {
     grid-template-columns: 1fr;
-  }
-
-  .product-badge {
-    align-items: flex-start;
-    border-radius: 8px;
-    line-height: 1.35;
   }
 
   .market-badge {
