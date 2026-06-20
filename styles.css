@@ -4,6 +4,7 @@
   --muted: #5f6b7a;
   --soft: #eef4f8;
   --line: #d9e2ea;
+  --line-strong: #c8d5df;
   --panel: #ffffff;
   --blue: #215bd6;
   --blue-dark: #163f9f;
@@ -43,6 +44,7 @@ img {
   align-items: center;
   background: rgba(247, 250, 252, 0.94);
   border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(18px);
   display: grid;
   gap: 18px;
   grid-template-columns: 1fr auto 1fr;
@@ -70,7 +72,7 @@ img {
 
 .brand-mark {
   align-items: center;
-  background: var(--ink);
+  background: #0f172a;
   border-radius: 6px;
   color: #fff;
   display: inline-flex;
@@ -93,7 +95,7 @@ img {
 }
 
 .header-cta {
-  background: var(--ink);
+  background: #0f172a;
   border-radius: 6px;
   color: #fff;
   font-size: 14px;
@@ -106,8 +108,23 @@ img {
   display: grid;
   gap: clamp(32px, 5vw, 72px);
   grid-template-columns: minmax(0, 0.86fr) minmax(420px, 1.14fr);
+  isolation: isolate;
   min-height: calc(100vh - 66px);
   padding: clamp(44px, 7vw, 96px) clamp(20px, 5vw, 72px) clamp(36px, 5vw, 72px);
+  position: relative;
+}
+
+.hero::after {
+  background:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 72px 72px;
+  content: "";
+  inset: 0;
+  opacity: 0.22;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
 }
 
 .hero-copy {
@@ -122,6 +139,28 @@ img {
   letter-spacing: 0;
   margin: 0 0 12px;
   text-transform: uppercase;
+}
+
+.product-badge {
+  align-items: center;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: #334155;
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 850;
+  gap: 10px;
+  margin-bottom: 18px;
+  padding: 8px 12px;
+}
+
+.product-badge span {
+  background: var(--green);
+  border-radius: 999px;
+  box-shadow: 0 0 0 5px rgba(14, 124, 102, 0.12);
+  height: 8px;
+  width: 8px;
 }
 
 h1,
@@ -163,7 +202,7 @@ h3 {
 .hero-actions {
   flex-wrap: wrap;
   gap: 12px;
-  margin: 30px 0 28px;
+  margin: 30px 0 14px;
 }
 
 .primary-action,
@@ -185,6 +224,18 @@ h3 {
 .secondary-action {
   background: #fff;
   border: 1px solid var(--line);
+}
+
+.secondary-action:hover {
+  border-color: var(--line-strong);
+}
+
+.hero-note {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.45;
+  margin-bottom: 28px;
 }
 
 .metrics {
@@ -217,12 +268,51 @@ h3 {
   align-self: center;
 }
 
-.hero-media img,
+.demo-frame,
 .desktop-preview {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 8px;
   box-shadow: 0 24px 80px rgba(17, 24, 39, 0.12);
+}
+
+.demo-frame {
+  overflow: hidden;
+}
+
+.demo-toolbar {
+  align-items: center;
+  background: #f8fafc;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 7px;
+  min-height: 42px;
+  padding: 0 14px;
+}
+
+.demo-toolbar span {
+  background: #cbd5e1;
+  border-radius: 999px;
+  height: 9px;
+  width: 9px;
+}
+
+.demo-toolbar strong {
+  color: #64748b;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.demo-frame img {
+  width: 100%;
+}
+
+.demo-caption {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 14px;
+  text-align: center;
 }
 
 .section,
@@ -254,6 +344,19 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 24px;
+}
+
+.workflow article {
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.workflow article:hover {
+  border-color: var(--line-strong);
+  box-shadow: 0 18px 42px rgba(17, 24, 39, 0.08);
+  transform: translateY(-2px);
 }
 
 .workflow span {
@@ -362,6 +465,8 @@ h3 {
 
 .site-footer {
   align-items: center;
+  background: #fff;
+  border-top: 1px solid var(--line);
   display: flex;
   gap: 16px;
   justify-content: space-between;
@@ -404,6 +509,10 @@ h3 {
   .safety-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .desktop-preview {
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -429,6 +538,7 @@ h3 {
 
   h1 {
     font-size: 44px;
+    line-height: 1;
   }
 
   .hero-actions,
@@ -446,6 +556,20 @@ h3 {
   .safety-grid,
   .status-grid {
     grid-template-columns: 1fr;
+  }
+
+  .product-badge {
+    align-items: flex-start;
+    border-radius: 8px;
+    line-height: 1.35;
+  }
+
+  .demo-toolbar {
+    min-height: 36px;
+  }
+
+  .demo-caption {
+    font-size: 13px;
   }
 
   .phone-preview {

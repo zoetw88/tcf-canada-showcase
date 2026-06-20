@@ -12,8 +12,13 @@
       property="og:description"
       content="Practice French speaking with AI-guided feedback, level-aware review, and a focused study loop."
     />
-    <meta property="og:image" content="assets/desktop-preview.png" />
+    <meta property="og:image" content="https://zoetw88.github.io/tcf-canada-showcase/assets/social-preview.png" />
+    <meta property="og:url" content="https://zoetw88.github.io/tcf-canada-showcase/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#111827" />
     <title>TCF Canada | AI Speaking Practice</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -25,6 +30,7 @@
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#product">Product</a>
         <a href="#ai">AI feedback</a>
+        <a href="#readiness">Readiness</a>
         <a href="#privacy">Privacy</a>
       </nav>
       <a class="header-cta" href="https://tcf-canada-gamma.vercel.app">Launch app</a>
@@ -33,6 +39,10 @@
     <main id="top">
       <section class="hero">
         <div class="hero-copy">
+          <div class="product-badge">
+            <span></span>
+            Live web product with mobile testing in progress
+          </div>
           <p class="eyebrow">AI speaking coach for French exam preparation</p>
           <h1>Practice French speaking with feedback you can act on.</h1>
           <p class="hero-text">
@@ -43,6 +53,9 @@
             <a class="primary-action" href="https://tcf-canada-gamma.vercel.app">Launch web app</a>
             <a class="secondary-action" href="https://github.com/zoetw88/tcf-canada-showcase">View showcase</a>
           </div>
+          <p class="hero-note">
+            Independent study product. AI feedback is learning guidance, not an official score.
+          </p>
           <div class="metrics" aria-label="Product highlights">
             <div>
               <strong>A1-B2</strong>
@@ -60,7 +73,18 @@
         </div>
 
         <div class="hero-media" aria-label="Product demo">
-          <img src="assets/ai-speaking-feedback-flow.gif" alt="AI speaking feedback flow demo" />
+          <div class="demo-frame">
+            <div class="demo-toolbar" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <strong>AI feedback demo</strong>
+            </div>
+            <img src="assets/ai-speaking-feedback-flow.gif" alt="AI speaking feedback flow demo" />
+          </div>
+          <div class="demo-caption">
+            Prompt selection -> French answer -> level-aware AI review
+          </div>
         </div>
       </section>
 
@@ -110,7 +134,7 @@
         <img class="desktop-preview" src="assets/desktop-preview.png" alt="Desktop product preview" />
       </section>
 
-      <section class="split-section mobile-section">
+      <section class="split-section mobile-section" id="readiness">
         <img class="phone-preview" src="assets/mobile-preview.png" alt="Mobile product preview" />
         <div>
           <p class="eyebrow">Cross-device readiness</p>
