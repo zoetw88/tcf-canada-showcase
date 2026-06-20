@@ -2,7 +2,7 @@
 
 **Independent AI speaking practice for TCF Canada preparation.**
 
-SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a target level, answer realistic prompts, receive AI-guided feedback, and return to focused review.
+SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a target level, answer realistic speaking questions, receive AI-guided feedback, and return to focused review.
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
@@ -10,7 +10,7 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 
 ![AI speaking feedback flow](assets/ai-speaking-feedback-flow.gif)
 
-<p align="center"><em>AI-guided practice flow: prompt selection, speaking answer, and level-aware feedback for the next attempt.</em></p>
+<p align="center"><em>AI-guided practice flow: question selection, speaking answer, level-aware feedback, and follow-up practice.</em></p>
 
 ## Product Snapshot
 
@@ -25,9 +25,9 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 
 ## Why This Exists
 
-Speaking preparation is difficult to do alone. Learners can read vocabulary lists or complete grammar drills, but after answering a speaking prompt they often still ask the same question: what should I improve next?
+Speaking preparation is difficult to do alone. Learners can read vocabulary lists or complete grammar drills, but after answering a speaking question they often still ask the same question: what should I improve next?
 
-SpeakCanada AI is built around that moment. It turns each speaking attempt into a clear review cycle so learners can practice more often, understand their weak points, and return to the prompts that matter.
+SpeakCanada AI is built around that moment. It turns each speaking attempt into a clear review cycle so learners can practice more often, understand their weak points, and return to the questions that matter.
 
 ## AI Product Experience
 
@@ -41,21 +41,21 @@ Learners choose a target level such as A1, A2, B1, or B2. The feedback experienc
 
 ### Focused Review Loop
 
-Users can save useful prompts, return to previous practice items, and repeat targeted speaking rounds instead of treating practice as a one-time activity.
+Users can save useful practice items, return to previous questions, and repeat targeted speaking rounds instead of treating practice as a one-time activity.
 
 ### Simple Daily Workflow
 
-The product is designed for frequent use: pick a prompt, answer, review feedback, save what matters, and continue.
+The product is designed for frequent use: pick a speaking question, answer, review feedback, save what matters, and continue.
 
 ## User Journey
 
 | Step | User Experience | Product Value |
 | --- | --- | --- |
 | 1 | Choose interface language and target level | Reduces setup friction |
-| 2 | Select a speaking prompt | Keeps practice concrete |
+| 2 | Select a speaking question | Keeps practice concrete |
 | 3 | Answer in French | Builds speaking habit |
 | 4 | Review AI-guided feedback | Makes improvement visible |
-| 5 | Save useful prompts | Supports targeted review |
+| 5 | Save useful practice items | Supports targeted review |
 
 ## Product Preview
 

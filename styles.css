@@ -387,12 +387,22 @@ h3 {
   margin-top: 28px;
 }
 
+.hero-qr-grid {
+  max-width: 390px;
+  margin-bottom: 24px;
+  margin-top: 12px;
+}
+
 .qr-placeholder {
   background: var(--soft);
   border: 1px solid var(--line);
   border-radius: 8px;
   color: var(--ink);
   padding: 18px;
+}
+
+.hero-qr-grid .qr-placeholder {
+  padding: 12px;
 }
 
 .qr-placeholder span {
@@ -415,6 +425,11 @@ h3 {
   margin: 12px 0;
 }
 
+.hero-qr-grid .qr-placeholder div {
+  height: 78px;
+  margin: 8px 0;
+}
+
 .qr-placeholder div::after {
   color: #94a3b8;
   content: "QR";
@@ -428,6 +443,10 @@ h3 {
   font-weight: 800;
   line-height: 1.35;
   margin: 0;
+}
+
+.hero-qr-grid .qr-placeholder p {
+  font-size: 12px;
 }
 
 .safety {
