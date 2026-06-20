@@ -1,32 +1,67 @@
-# TCF Canada - French Speaking Practice
+# TCF Canada
 
-TCF Canada is a French speaking practice product for learners preparing for Canadian immigration language exams.
+**AI-assisted French speaking practice for Canadian immigration exam preparation.**
 
-Live app: https://tcf-canada-gamma.vercel.app
+TCF Canada helps learners build a repeatable speaking practice routine: choose a target level, answer realistic French prompts, receive structured feedback, and review progress over time.
 
-## Product Highlights
+[Launch Web App](https://tcf-canada-gamma.vercel.app)
 
-- Practice French speaking prompts for exam-style preparation.
-- Choose a target level such as A1, A2, B1, or B2.
-- Receive structured feedback to improve fluency, clarity, and answer organization.
-- Save useful practice items for later review.
-- Review progress over time.
-- Use the product on web and mobile.
+## Overview
 
-## Why I Built It
+Preparing for a French speaking exam is difficult without frequent practice and clear feedback. TCF Canada is designed to make that loop simple: practice, understand what needs improvement, and return to targeted speaking work.
 
-Many learners preparing for French immigration exams need repeated speaking practice, clear feedback, and a simple way to understand what to improve next. This product focuses on making that practice loop easier and more accessible.
+The product is built for independent learners who want a focused preparation tool instead of a generic language app.
 
-## Current Status
+## Who It Is For
 
-- Web app is live.
-- Android device testing is available.
-- iOS and Android store-readiness work is ongoing.
+- Learners preparing for French-speaking immigration exams.
+- Candidates who need structured speaking practice across everyday topics.
+- Users who want feedback tied to levels such as A1, A2, B1, and B2.
+- Self-study learners who need a lightweight way to review progress and saved practice items.
+
+## Core Product Experience
+
+### Speaking Practice
+
+Users practice with exam-style French speaking prompts and can build familiarity with common oral-response patterns.
+
+### Level-Oriented Feedback
+
+Feedback is organized around clarity, fluency, structure, and next-step improvement. The product is designed to help users understand what to improve, not only whether an answer was good or bad.
+
+### Saved Practice List
+
+Users can save useful prompts and revisit them later, turning weak areas into a focused review list.
+
+### Progress Review
+
+Practice history and review flows help users see how their speaking work changes over time.
+
+### Web And Mobile Access
+
+The product is available on the web, with mobile testing underway for Android and iOS release readiness.
+
+## Product Status
+
+| Area | Status |
+| --- | --- |
+| Web app | Live |
+| Android device testing | Active |
+| iOS release preparation | In progress |
+| Store readiness | In progress |
+| Paid launch preparation | In progress |
+
+## Product Principles
+
+- Keep the practice loop fast and focused.
+- Make feedback understandable for non-technical learners.
+- Prioritize speaking improvement over decorative complexity.
+- Support exam preparation without pretending to replace official exam guidance.
 
 ## Built By
 
-Built by Zoe as an independent product.
+TCF Canada is an independent product built by **Zoe**.
 
-## Note
+## Public Showcase Note
 
-This is a public product showcase. The source code and private operational details are not published here.
+This repository is a product showcase. Source code, private operational details, credentials, internal documentation, and release artifacts are intentionally not published here.
