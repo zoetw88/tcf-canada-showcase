@@ -6,7 +6,9 @@ TCF Canada helps learners practice French speaking with a clear improvement loop
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
-![TCF Canada product preview](assets/desktop-preview.png)
+![AI speaking feedback flow](assets/ai-speaking-feedback-flow.gif)
+
+AI-guided practice flow: choose a speaking prompt, answer in French, then review level-aware feedback for the next attempt.
 
 ## The Problem
 
@@ -55,6 +57,8 @@ Feedback is designed to be understandable and action-oriented, so users know wha
 | 5 | Save useful prompts and repeat targeted practice |
 
 ## Product Preview
+
+![TCF Canada product preview](assets/desktop-preview.png)
 
 <img src="assets/mobile-preview.png" alt="TCF Canada mobile preview" width="320" />
 
