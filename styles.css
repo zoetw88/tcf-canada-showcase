@@ -163,6 +163,23 @@ img {
   width: 8px;
 }
 
+.market-badge {
+  align-items: center;
+  color: #475569;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 850;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.market-badge img {
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  height: 24px;
+  width: 38px;
+}
+
 h1,
 h2,
 h3,
@@ -550,6 +567,11 @@ h3 {
   .product-badge {
     align-items: flex-start;
     border-radius: 8px;
+    line-height: 1.35;
+  }
+
+  .market-badge {
+    align-items: flex-start;
     line-height: 1.35;
   }
 
