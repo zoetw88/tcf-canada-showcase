@@ -18,10 +18,11 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 | --- | --- |
 | Product type | AI speaking coach |
 | Audience | Learners preparing for TCF Canada speaking practice |
-| Core workflow | Practice, feedback, review, repeat |
+| Core workflow | Prompt bank, answer-based AI follow-up, final script/report, saved examples, related prompt recommendation |
 | Level targets | A1, A2, B1, B2 |
 | Live product | Web available now |
 | Mobile readiness | Android device testing active, iOS preparation in progress |
+| Showcase languages | English, Traditional Chinese, Simplified Chinese, French, Hindi, Arabic, Filipino/Tagalog, Urdu |
 
 ## Why This Exists
 
@@ -31,9 +32,9 @@ SpeakCanada AI is built around that moment. It turns each speaking attempt into 
 
 ## AI Product Experience
 
-### AI Speaking Feedback
+### AI Speaking Feedback And Follow-Up
 
-Each answer becomes a feedback moment. The product helps learners understand clarity, structure, fluency, and practical next steps without presenting the result as an official exam score.
+Each answer becomes an interaction. T1 and T3 can continue with answer-based follow-up questions, T2 is a same-page examiner dialogue, and the final report shows the full script after the practice sequence.
 
 ### Level-Aware Guidance
 
@@ -41,7 +42,7 @@ Learners choose a target level such as A1, A2, B1, or B2. The feedback experienc
 
 ### Focused Review Loop
 
-Users can save useful practice items, return to previous questions, and repeat targeted speaking rounds instead of treating practice as a one-time activity.
+Users can save useful examples, return to previous questions, and repeat targeted speaking rounds. Saved examples help recommend related prompts, so one useful story can become several focused practice sessions.
 
 ### Simple Daily Workflow
 

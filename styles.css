@@ -88,9 +88,12 @@ img {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 8px;
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   gap: 2px;
   justify-self: end;
+  justify-content: flex-end;
+  max-width: 360px;
   padding: 3px;
 }
 
@@ -106,6 +109,31 @@ img {
   font-weight: 900;
   min-width: 34px;
   padding: 7px 8px;
+}
+
+html[dir="rtl"] .site-header,
+html[dir="rtl"] .brand,
+html[dir="rtl"] .nav-links,
+html[dir="rtl"] .market-badge,
+html[dir="rtl"] .hero-actions,
+html[dir="rtl"] .metrics,
+html[dir="rtl"] .check-list li,
+html[dir="rtl"] .demo-toolbar {
+  direction: rtl;
+}
+
+html[dir="rtl"] .language-switcher {
+  direction: ltr;
+  justify-self: start;
+}
+
+html[dir="rtl"] .nav-links {
+  justify-content: start;
+}
+
+html[dir="rtl"] .demo-toolbar strong {
+  margin-left: 0;
+  margin-right: 8px;
 }
 
 .language-switcher button[aria-pressed="true"] {
@@ -689,15 +717,23 @@ h3 {
 @media (max-width: 640px) {
   .site-header {
     gap: 10px;
+    grid-template-columns: 1fr;
     padding: 12px 14px;
   }
 
   .brand {
     font-size: 15px;
+    justify-self: start;
   }
 
   .language-switcher {
+    justify-self: stretch;
+    justify-content: center;
     max-width: 100%;
+  }
+
+  html[dir="rtl"] .brand {
+    justify-self: right;
   }
 
   .language-switcher button {
