@@ -481,25 +481,42 @@ h3 {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
+  display: grid;
+  grid-template-rows: minmax(300px, auto) 1fr;
   overflow: hidden;
 }
 
 .evidence-grid img {
-  aspect-ratio: 16 / 10;
-  background: #e8eef5;
+  align-self: center;
+  background: #eef4f8;
   border-bottom: 1px solid var(--line);
-  object-fit: cover;
-  object-position: top left;
+  height: 320px;
+  object-fit: contain;
+  object-position: top center;
+  padding: 18px;
   width: 100%;
 }
 
-.evidence-grid article:nth-child(4) img {
-  object-fit: contain;
+.evidence-grid article:nth-child(1) img,
+.evidence-grid article:nth-child(5) img {
+  height: 280px;
   object-position: center top;
-  padding: 18px;
+}
+
+.evidence-grid article:nth-child(2) img,
+.evidence-grid article:nth-child(3) img,
+.evidence-grid article:nth-child(4) img,
+.evidence-grid article:nth-child(6) img {
+  background:
+    linear-gradient(90deg, #e2e8f0 1px, transparent 1px),
+    linear-gradient(#e2e8f0 1px, transparent 1px),
+    #f8fbfd;
+  background-size: 32px 32px;
+  padding: 16px 28%;
 }
 
 .evidence-grid div {
+  background: #fff;
   padding: 20px;
 }
 
@@ -774,6 +791,24 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .evidence-grid article {
+    grid-template-rows: auto 1fr;
+  }
+
+  .evidence-grid img,
+  .evidence-grid article:nth-child(1) img,
+  .evidence-grid article:nth-child(5) img {
+    height: 280px;
+  }
+
+  .evidence-grid article:nth-child(2) img,
+  .evidence-grid article:nth-child(3) img,
+  .evidence-grid article:nth-child(4) img,
+  .evidence-grid article:nth-child(6) img {
+    padding-left: 24%;
+    padding-right: 24%;
+  }
+
   .image-map-heading {
     grid-template-columns: 1fr;
   }
@@ -840,6 +875,26 @@ h3 {
   .image-map-grid,
   .qr-grid {
     grid-template-columns: 1fr;
+  }
+
+  .evidence-grid {
+    gap: 18px;
+  }
+
+  .evidence-grid img,
+  .evidence-grid article:nth-child(1) img,
+  .evidence-grid article:nth-child(5) img {
+    height: 260px;
+    padding: 14px;
+  }
+
+  .evidence-grid article:nth-child(2) img,
+  .evidence-grid article:nth-child(3) img,
+  .evidence-grid article:nth-child(4) img,
+  .evidence-grid article:nth-child(6) img {
+    height: 360px;
+    padding-left: 18%;
+    padding-right: 18%;
   }
 
   .image-map {
