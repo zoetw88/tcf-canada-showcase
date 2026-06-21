@@ -519,6 +519,71 @@ h3 {
   margin-bottom: 0;
 }
 
+.image-map {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin-top: 18px;
+  padding: 22px;
+}
+
+.image-map-heading {
+  align-items: start;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: minmax(180px, 0.28fr) 1fr;
+}
+
+.image-map-heading span {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.image-map-heading p {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.image-map-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 18px;
+}
+
+.image-map-grid article {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.image-map-grid strong {
+  display: block;
+  font-size: 15px;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.image-map-grid p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+
+.image-map-grid small {
+  color: var(--green);
+  display: block;
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1.35;
+}
+
 .split-section {
   align-items: center;
   display: grid;
@@ -704,8 +769,13 @@ h3 {
 
   .workflow,
   .safety-grid,
-  .evidence-grid {
+  .evidence-grid,
+  .image-map-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .image-map-heading {
+    grid-template-columns: 1fr;
   }
 
   .desktop-preview,
@@ -767,8 +837,13 @@ h3 {
   .workflow,
   .safety-grid,
   .evidence-grid,
+  .image-map-grid,
   .qr-grid {
     grid-template-columns: 1fr;
+  }
+
+  .image-map {
+    padding: 16px;
   }
 
   .feedback-callout {

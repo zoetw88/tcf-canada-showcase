@@ -145,7 +145,7 @@
 
       <section class="split-section growth-section" id="growth">
         <figure class="product-preview growth-preview">
-          <img src="assets/product-growth-loop-report.png" alt="Real product report screen showing next practice loop, transcript, saved example, and related prompt recommendation" />
+          <img data-image-key="report" src="assets/lang/en/t1-report.png" alt="Real product report screen showing next practice loop, transcript, saved example, and related prompt recommendation" />
           <figcaption data-i18n="growth.caption">Real report screen: score, next loop, script, saved example recommendation.</figcaption>
         </figure>
         <div>
@@ -176,7 +176,7 @@
         </div>
         <div class="evidence-grid">
           <article>
-            <img src="assets/product-question-bank.png" alt="Real product screen showing categorized past-exam inspired prompt bank" />
+            <img data-image-key="t2Report" src="assets/lang/en/t2-report.png" alt="Real product screen showing categorized past-exam inspired prompt bank" />
             <div>
               <span data-i18n="evidence.bankLabel">Prompt bank</span>
               <h3 data-i18n="evidence.bankTitle">Past-exam inspired questions organized by topic.</h3>
@@ -184,7 +184,7 @@
             </div>
           </article>
           <article>
-            <img src="assets/interactive-follow-up.png" alt="Real product screen showing T1 and T3 follow-up questions based on the learner's French answer" />
+            <img data-image-key="t1FollowUp" src="assets/lang/en/t1-follow-up.png" alt="Real product screen showing T1 and T3 follow-up questions based on the learner's French answer" />
             <div>
               <span data-i18n="evidence.aiLabel">AI interaction</span>
               <h3 data-i18n="evidence.aiTitle">T1/T3 follow-ups and T2 interactive dialogue.</h3>
@@ -192,7 +192,7 @@
             </div>
           </article>
           <article>
-            <img src="assets/follow-up-recording.png" alt="Real product screen showing a timed T1 follow-up answer with a 2 minute remaining window" />
+            <img data-image-key="t3FollowUp" src="assets/lang/en/t3-follow-up.png" alt="Real product screen showing a timed T1 follow-up answer with a 2 minute remaining window" />
             <div>
               <span data-i18n="evidence.timedLabel">Timed follow-up</span>
               <h3 data-i18n="evidence.timedTitle">Follow-ups share the official task window.</h3>
@@ -200,7 +200,7 @@
             </div>
           </article>
           <article>
-            <img src="assets/final-composite-report.png" alt="Real product screen showing the composite report after the follow-up gate" />
+            <img data-image-key="script" src="assets/lang/en/t3-script.png" alt="Real product screen showing the composite report after the follow-up gate" />
             <div>
               <span data-i18n="evidence.reportLabel">Composite report</span>
               <h3 data-i18n="evidence.reportTitle">The report appears after the follow-up sequence.</h3>
@@ -208,7 +208,7 @@
             </div>
           </article>
           <article>
-            <img src="assets/product-saved-examples.png" alt="Product screen showing an actual saved example matched to a related speaking prompt" />
+            <img data-image-key="t2Script" src="assets/lang/en/t2-script.png" alt="Product screen showing an actual saved example matched to a related speaking prompt" />
             <div>
               <span data-i18n="evidence.savedLabel">Saved examples</span>
               <h3 data-i18n="evidence.savedTitle">Saved examples recommend related speaking prompts.</h3>
@@ -216,13 +216,43 @@
             </div>
           </article>
           <article>
-            <img src="assets/mobile-preview.png" alt="Real mobile product screen for practice review" />
+            <img data-image-key="mobile" src="assets/lang/en/mobile-final.png" alt="Real mobile product screen for practice review" />
             <div>
               <span data-i18n="evidence.mobileLabel">Mobile flow</span>
               <h3 data-i18n="evidence.mobileTitle">Practice and review continue on smaller screens.</h3>
               <p data-i18n="evidence.mobileText">The core loop stays available for mobile testing and future app-store rollout.</p>
             </div>
           </article>
+        </div>
+        <div class="image-map" aria-label="Image evidence map">
+          <div class="image-map-heading">
+            <span data-i18n="imageMap.label">Image evidence map</span>
+            <p data-i18n="imageMap.text">
+              Each showcase image is paired with the product claim it supports and the languages covered in production smoke tests.
+            </p>
+          </div>
+          <div class="image-map-grid">
+            <article>
+              <strong data-i18n="imageMap.bankTitle">Prompt bank screen</strong>
+              <p data-i18n="imageMap.bankText">Shows categorized past-exam inspired prompts, topic grouping, and focused practice entry.</p>
+              <small data-i18n="imageMap.languages">Languages tested: EN, 繁, 简, FR, हिन्दी, العربية, TL, اردو</small>
+            </article>
+            <article>
+              <strong data-i18n="imageMap.followTitle">AI follow-up screen</strong>
+              <p data-i18n="imageMap.followText">Shows same-session examiner follow-up after the learner's own T1/T3 answer.</p>
+              <small data-i18n="imageMap.languages">Languages tested: EN, 繁, 简, FR, हिन्दी, العربية, TL, اردو</small>
+            </article>
+            <article>
+              <strong data-i18n="imageMap.reportTitle">Composite report screen</strong>
+              <p data-i18n="imageMap.reportText">Shows final scoring, full script, examiner/candidate turns, and next practice loop.</p>
+              <small data-i18n="imageMap.languages">Languages tested: EN, 繁, 简, FR, हिन्दी, العربية, TL, اردو</small>
+            </article>
+            <article>
+              <strong data-i18n="imageMap.examplesTitle">Saved examples screen</strong>
+              <p data-i18n="imageMap.examplesText">Shows a real saved example matched to a related speaking prompt recommendation.</p>
+              <small data-i18n="imageMap.languages">Languages tested: EN, 繁, 简, FR, हिन्दी, العربية, TL, اردو</small>
+            </article>
+          </div>
         </div>
       </section>
 
@@ -245,13 +275,13 @@
           </ul>
         </div>
         <figure class="product-preview">
-          <img class="desktop-preview" src="assets/interactive-follow-up.png" alt="Real product follow-up question preview" />
+          <img class="desktop-preview" data-image-key="t1FollowUp" src="assets/lang/en/t1-follow-up.png" alt="Real product follow-up question preview" />
           <figcaption data-i18n="ai.caption">Real app follow-up screen: T1/T3 use the learner's answer to ask the next question; T2 is handled as dialogue.</figcaption>
         </figure>
       </section>
 
       <section class="split-section mobile-section" id="readiness">
-        <img class="phone-preview" src="assets/mobile-preview.png" alt="Mobile product preview" />
+        <img class="phone-preview" data-image-key="mobile" src="assets/lang/en/mobile-final.png" alt="Mobile product preview" />
         <div>
           <p class="eyebrow" data-i18n="readiness.eyebrow">Practice, review, repeat</p>
           <h2 data-i18n="readiness.title">Save useful examples and find related questions faster.</h2>
@@ -364,6 +394,17 @@
           "evidence.mobileLabel": "Mobile flow",
           "evidence.mobileTitle": "Practice and review continue on smaller screens.",
           "evidence.mobileText": "The core loop stays available for mobile testing and future app-store rollout.",
+          "imageMap.label": "Image evidence map",
+          "imageMap.text": "Each showcase image is paired with the product claim it supports and the languages covered in production smoke tests.",
+          "imageMap.bankTitle": "Prompt bank screen",
+          "imageMap.bankText": "Shows categorized past-exam inspired prompts, topic grouping, and focused practice entry.",
+          "imageMap.followTitle": "AI follow-up screen",
+          "imageMap.followText": "Shows same-session examiner follow-up after the learner's own T1/T3 answer.",
+          "imageMap.reportTitle": "Composite report screen",
+          "imageMap.reportText": "Shows final scoring, full script, examiner/candidate turns, and next practice loop.",
+          "imageMap.examplesTitle": "Saved examples screen",
+          "imageMap.examplesText": "Shows a real saved example matched to a related speaking prompt recommendation.",
+          "imageMap.languages": "Languages tested: EN, 繁, 简, FR, हिन्दी, العربية, TL, اردو",
           "ai.eyebrow": "AI interaction and topic memory",
           "ai.title": "T1 and T3 can continue after the answer; T2 is interactive from the start.",
           "ai.text": "SpeakCanada AI is designed for learners who practice alone but still need interaction. After a T1 or T3 answer, the app can generate examiner-style follow-up questions from the learner's own details, reasons, or examples. T2 works as a live multi-turn conversation with the simulated examiner.",
@@ -451,6 +492,17 @@
           "evidence.mobileLabel": "手機流程",
           "evidence.mobileTitle": "小螢幕也能繼續練習與複習。",
           "evidence.mobileText": "核心練習循環可延伸到手機測試與未來上架。",
+          "imageMap.label": "圖片證據地圖",
+          "imageMap.text": "每張 showcase 圖片都對應一個產品主張，並標示 production smoke test 已覆蓋的語言。",
+          "imageMap.bankTitle": "題庫畫面",
+          "imageMap.bankText": "呈現分類後的過去題型方向、主題分組與聚焦練習入口。",
+          "imageMap.followTitle": "AI 追問畫面",
+          "imageMap.followText": "呈現 T1/T3 依使用者回答產生的同一 session 考官追問。",
+          "imageMap.reportTitle": "合成報告畫面",
+          "imageMap.reportText": "呈現最後評分、完整 script、考官/考生對話與下一次練習循環。",
+          "imageMap.examplesTitle": "保存例子畫面",
+          "imageMap.examplesText": "呈現真實保存例子如何匹配到相關口說題推薦。",
+          "imageMap.languages": "已測語言：EN、繁、简、FR、हिन्दी、العربية、TL、اردو",
           "ai.eyebrow": "AI 互動與題目記憶",
           "ai.title": "T1 和 T3 答完後可以繼續追問；T2 一開始就是互動。",
           "ai.text": "SpeakCanada AI 是為自己練習但仍需要互動的學習者設計。T1 或 T3 回答後，App 可以根據你提到的細節、理由或例子產生考官式追問；T2 則是與模擬考官的多輪對話。",
@@ -542,6 +594,17 @@
         "evidence.mobileLabel": "手机流程",
         "evidence.mobileTitle": "小屏幕也能继续练习与复习。",
         "evidence.mobileText": "核心练习循环可延伸到手机测试与未来上架。",
+        "imageMap.label": "图片证据地图",
+        "imageMap.text": "每张 showcase 图片都对应一个产品主张，并标示 production smoke test 已覆盖的语言。",
+        "imageMap.bankTitle": "题库画面",
+        "imageMap.bankText": "呈现分类后的过去题型方向、主题分组与聚焦练习入口。",
+        "imageMap.followTitle": "AI 追问画面",
+        "imageMap.followText": "呈现 T1/T3 依用户回答生成的同一 session 考官追问。",
+        "imageMap.reportTitle": "合成报告画面",
+        "imageMap.reportText": "呈现最后评分、完整 script、考官/考生对话与下一次练习循环。",
+        "imageMap.examplesTitle": "保存例子画面",
+        "imageMap.examplesText": "呈现真实保存例子如何匹配到相关口语题推荐。",
+        "imageMap.languages": "已测语言：EN、繁、简、FR、हिन्दी、العربية、TL、اردو",
         "ai.eyebrow": "AI 互动与题目记忆",
         "ai.title": "T1 和 T3 答完后可以继续追问；T2 一开始就是互动。",
         "ai.text": "SpeakCanada AI 是为自己练习但仍需要互动的学习者设计。T1 或 T3 回答后，App 可以根据你提到的细节、理由或例子生成考官式追问；T2 则是与模拟考官的多轮对话。",
@@ -631,6 +694,17 @@
         "evidence.mobileLabel": "Parcours mobile",
         "evidence.mobileTitle": "La pratique et la revision continuent sur petit ecran.",
         "evidence.mobileText": "La boucle principale reste disponible pour les tests mobiles et le futur lancement app-store.",
+        "imageMap.label": "Carte des images",
+        "imageMap.text": "Chaque image du showcase est reliee au point produit qu'elle prouve et aux langues couvertes par les smoke tests de production.",
+        "imageMap.bankTitle": "Ecran banque de sujets",
+        "imageMap.bankText": "Montre les sujets classes, les groupes de themes et l'entree vers une pratique ciblee.",
+        "imageMap.followTitle": "Ecran de suivi IA",
+        "imageMap.followText": "Montre le suivi examinateur dans la meme session apres la reponse T1/T3 de l'apprenant.",
+        "imageMap.reportTitle": "Ecran rapport composite",
+        "imageMap.reportText": "Montre le score final, le script complet, les tours examinateur/candidat et la prochaine boucle de pratique.",
+        "imageMap.examplesTitle": "Ecran exemples sauvegardes",
+        "imageMap.examplesText": "Montre un exemple reel sauvegarde associe a une recommandation de sujet oral lie.",
+        "imageMap.languages": "Langues testees : EN, 繁, 简, FR, हिन्दी, العربية, TL, اردو",
         "ai.eyebrow": "Interaction IA et memoire des themes",
         "ai.title": "T1 et T3 peuvent continuer apres la reponse; T2 est interactif des le depart.",
         "ai.text": "SpeakCanada AI est concu pour les apprenants qui pratiquent seuls mais veulent de l'interaction. Apres une reponse T1 ou T3, l'app peut generer des questions de suivi a partir des details, raisons ou exemples de l'apprenant. T2 fonctionne comme un dialogue multi-tour avec l'examinateur simule.",
@@ -1013,6 +1087,15 @@
 
       const availableLanguages = ["en", "zh-Hant", "zh-Hans", "fr", "hi", "ar", "tl", "ur"];
       const languageButtons = document.querySelectorAll("[data-lang]");
+      const localizedProductImages = {
+        report: "t1-report.png",
+        t1FollowUp: "t1-follow-up.png",
+        t2Report: "t2-report.png",
+        t2Script: "t2-script.png",
+        t3FollowUp: "t3-follow-up.png",
+        script: "t3-script.png",
+        mobile: "mobile-final.png"
+      };
 
       function normalizeLanguage(language) {
         if (language.startsWith("zh-Hant") || language === "zh-TW" || language === "zh-HK") {
@@ -1050,6 +1133,13 @@
         });
         languageButtons.forEach((button) => {
           button.setAttribute("aria-pressed", String(button.dataset.lang === nextLanguage));
+        });
+        document.querySelectorAll("[data-image-key]").forEach((image) => {
+          const key = image.getAttribute("data-image-key");
+          const filename = localizedProductImages[key];
+          if (filename) {
+            image.setAttribute("src", `assets/lang/${nextLanguage}/${filename}`);
+          }
         });
         localStorage.setItem("showcase-language", nextLanguage);
       }
