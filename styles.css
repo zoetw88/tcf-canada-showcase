@@ -336,7 +336,7 @@ h3 {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 14px;
-  box-shadow: var(--shadow-strong);
+  box-shadow: 0 18px 48px rgba(17, 24, 39, 0.1);
 }
 
 .demo-frame {
@@ -368,14 +368,16 @@ h3 {
 }
 
 .demo-gif-crop {
-  aspect-ratio: 1000 / 570;
+  aspect-ratio: 1000 / 760;
   background: #f8fbfd;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .demo-frame img {
   background: #f8fbfd;
-  transform: translateY(-82px);
+  display: block;
+  height: 100%;
+  object-fit: contain;
   width: 100%;
 }
 
