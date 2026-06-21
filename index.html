@@ -101,7 +101,9 @@
               <span></span>
               <strong data-i18n="demo.toolbar">Product practice loop</strong>
             </div>
-            <img src="assets/ai-speaking-feedback-flow.gif" alt="Animated product flow showing prompt bank, answer-based AI follow-up, an actual saved example matched to a related prompt, and mobile practice review" />
+            <div class="demo-gif-crop">
+              <img src="assets/ai-speaking-feedback-flow.gif" alt="Animated product flow showing prompt bank, same-session AI practice, a saved example matched to a related prompt, and mobile practice review" />
+            </div>
           </div>
           <ul class="demo-points" aria-label="GIF product sequence">
             <li data-i18n="demo.pointOne">Prompt bank</li>
@@ -232,8 +234,8 @@
         </figure>
       </section>
 
-      <section class="split-section mobile-section" id="readiness">
-        <img class="phone-preview" data-image-key="mobile" src="assets/lang/en/mobile-final.png" alt="Mobile product preview" />
+      <section class="split-section examples-section" id="readiness">
+        <img class="examples-preview" src="assets/product-saved-examples.png" alt="Real product screen showing a saved personal example matched to a related speaking prompt" />
         <div>
           <p class="eyebrow" data-i18n="readiness.eyebrow">Practice, review, repeat</p>
           <h2 data-i18n="readiness.title">Save useful examples and find related questions faster.</h2>
@@ -1128,6 +1130,37 @@
 
       languageButtons.forEach((button) => {
         button.addEventListener("click", () => setLanguage(button.dataset.lang));
+      });
+
+      const lightbox = document.createElement("dialog");
+      lightbox.className = "image-lightbox";
+      lightbox.innerHTML = '<button class="lightbox-close" type="button" aria-label="Close image">×</button><img src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%271%27 height=%271%27/%3E" alt="" />';
+      document.body.appendChild(lightbox);
+
+      const lightboxImage = lightbox.querySelector("img");
+      lightbox.querySelector(".lightbox-close").addEventListener("click", () => lightbox.close());
+      lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) lightbox.close();
+      });
+
+      document.querySelectorAll(".evidence-grid img, .growth-preview img, .product-preview img, .examples-preview").forEach((image) => {
+        image.setAttribute("tabindex", "0");
+        image.setAttribute("role", "button");
+        image.setAttribute("aria-label", "Open product screenshot");
+        const openImage = () => {
+          lightboxImage.src = image.currentSrc || image.src;
+          lightboxImage.alt = image.alt || "Product screenshot";
+          if (typeof lightbox.showModal === "function") {
+            lightbox.showModal();
+          }
+        };
+        image.addEventListener("click", openImage);
+        image.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openImage();
+          }
+        });
       });
 
       const requestedLanguage = new URLSearchParams(window.location.search).get("lang");
