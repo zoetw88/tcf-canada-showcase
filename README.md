@@ -2,7 +2,7 @@
 
 **Independent AI speaking practice for TCF Canada preparation.**
 
-SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a target level, answer realistic speaking questions, receive AI-guided feedback, and return to focused review.
+SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a level, practice from past-exam inspired prompt patterns, continue with same-session AI examiner turns, review the full script/report, save reusable examples, and return to related questions.
 
 [Launch Web App](https://tcf-canada-gamma.vercel.app)
 
@@ -10,7 +10,7 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 
 ![AI speaking feedback flow](assets/ai-speaking-feedback-flow.gif)
 
-<p align="center"><em>AI-guided practice flow: question selection, speaking answer, level-aware feedback, and feedback review.</em></p>
+<p align="center"><em>AI-guided practice flow: prompt bank, same-session examiner turns, full report, saved examples, and related question recommendation.</em></p>
 
 ## Product Snapshot
 
@@ -21,7 +21,7 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 | Core workflow | Prompt bank, answer-based AI follow-up, final script/report, saved examples, related prompt recommendation |
 | Level targets | A1, A2, B1, B2 |
 | Live product | Web available now |
-| Mobile readiness | Android device testing active, iOS preparation in progress |
+| Mobile readiness | Web mobile flow validated, Android device testing active, iOS preparation in progress |
 | Showcase languages | English, Traditional Chinese, Simplified Chinese, French, Hindi, Arabic, Filipino/Tagalog, Urdu |
 
 ## Why This Exists
@@ -55,8 +55,8 @@ The product is designed for frequent use: pick a speaking question, answer, revi
 | 1 | Choose interface language and target level | Reduces setup friction |
 | 2 | Select a speaking question | Keeps practice concrete |
 | 3 | Answer in French | Builds speaking habit |
-| 4 | Review AI-guided feedback | Makes improvement visible |
-| 5 | Save useful practice items | Supports targeted review |
+| 4 | Continue same-session examiner turns when enabled | Makes practice closer to an oral interview |
+| 5 | Review full script, score guidance, saved examples, and related questions | Makes the next practice action obvious |
 
 ## Product Preview
 

@@ -990,39 +990,34 @@ h3 {
   }
 
   .evidence-grid {
-    gap: 12px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    grid-template-columns: 1fr;
   }
 
   .evidence-grid img,
   .evidence-grid article:nth-child(1) img,
-  .evidence-grid article:nth-child(3) img {
-    height: 180px;
-    padding: 10px;
-  }
-
   .evidence-grid article:nth-child(2) img,
+  .evidence-grid article:nth-child(3) img,
   .evidence-grid article:nth-child(4) img {
-    height: 180px;
-    padding-left: 22%;
-    padding-right: 22%;
-  }
-
-  .evidence-grid article {
-    grid-template-rows: 180px 1fr;
-  }
-
-  .evidence-grid div {
+    height: 300px;
     padding: 12px;
   }
 
+  .evidence-grid article {
+    grid-template-rows: 300px 1fr;
+  }
+
+  .evidence-grid div {
+    padding: 14px;
+  }
+
   .evidence-grid h3 {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .evidence-grid p {
-    font-size: 11px;
-    line-height: 1.35;
+    font-size: 13px;
+    line-height: 1.45;
   }
 
   .image-map {
