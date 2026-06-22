@@ -71,8 +71,8 @@ The product is designed for frequent use: pick a speaking question, answer, revi
 SpeakCanada AI is designed with privacy, safety, and exam-prep clarity in mind:
 
 - AI feedback is learning guidance, not an official score or guarantee.
-- Public showcase materials do not include private user data.
-- Source code, credentials, internal prompts, operational details, and release artifacts are intentionally not published.
+- Practice examples and personal information are not used as public showcase content.
+- Voice practice should clearly explain when audio processing is needed for AI feedback.
 - Account controls are designed with export and deletion readiness in mind.
 - Monitoring is used for reliability while keeping private operational details out of the public showcase.
 - The product is clearly positioned as an independent study tool.
@@ -95,13 +95,13 @@ SpeakCanada AI is designed with privacy, safety, and exam-prep clarity in mind:
 - Design for learners who study independently.
 - Prioritize speaking improvement over visual noise.
 - Be clear that AI practice feedback is not an official exam result.
-- Keep public materials polished without exposing private implementation details.
+- Keep public materials polished and focused on the learner's privacy, audio consent, and AI feedback boundaries.
 
 ## Built By
 
 SpeakCanada AI is an independent product built by **Zoe**.
 
-This public repository is a product showcase. It demonstrates the product, positioning, visual experience, and launch readiness without publishing the private application source code.
+This public repository is a product showcase. It demonstrates the product, positioning, visual experience, and learner-facing privacy message.
 
 ## Independence Notice
 

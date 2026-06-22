@@ -62,7 +62,7 @@ img {
 .brand,
 .nav-links,
 .hero-actions,
-.metrics,
+.hero-proof,
 .check-list li {
   align-items: center;
   display: flex;
@@ -129,7 +129,7 @@ html[dir="rtl"] .brand,
 html[dir="rtl"] .nav-links,
 html[dir="rtl"] .market-badge,
 html[dir="rtl"] .hero-actions,
-html[dir="rtl"] .metrics,
+html[dir="rtl"] .hero-proof,
 html[dir="rtl"] .check-list li,
 html[dir="rtl"] .demo-toolbar {
   direction: rtl;
@@ -295,36 +295,32 @@ h3 {
   margin-bottom: 28px;
 }
 
-.metrics {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  max-width: 560px;
-}
-
-.metrics div {
-  background: rgba(255, 255, 255, 0.74);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  min-width: 0;
-  padding: 14px;
-}
-
-.metrics strong,
-.metrics span {
-  display: block;
-}
-
-.metrics strong {
-  font-size: 18px;
-  line-height: 1.15;
-}
-
-.metrics span {
-  color: var(--muted);
+.hero-proof {
+  border-top: 1px solid var(--line);
+  color: #475569;
+  flex-wrap: wrap;
+  gap: 10px 14px;
   font-size: 13px;
-  font-weight: 700;
-  margin-top: 3px;
+  font-weight: 850;
+  line-height: 1.35;
+  margin-top: 24px;
+  max-width: 640px;
+  padding-top: 18px;
+}
+
+.hero-proof span {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+}
+
+.hero-proof span::before {
+  background: var(--green);
+  border-radius: 999px;
+  content: "";
+  flex: 0 0 7px;
+  height: 7px;
+  width: 7px;
 }
 
 .hero-media {
@@ -570,27 +566,6 @@ h3 {
   font-weight: 800;
   line-height: 1.45;
   margin-top: 12px;
-  text-align: center;
-}
-
-.demo-points {
-  display: grid;
-  gap: 8px;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  list-style: none;
-  margin: 12px 0 0;
-  padding: 0;
-}
-
-.demo-points li {
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  color: #334155;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 1.25;
-  padding: 10px 8px;
   text-align: center;
 }
 
@@ -1093,7 +1068,7 @@ h3 {
   }
 
   .hero-actions,
-  .metrics {
+  .hero-proof {
     align-items: stretch;
     flex-direction: column;
   }
@@ -1193,10 +1168,6 @@ h3 {
 
   .stage-previews img {
     height: 170px;
-  }
-
-  .demo-points {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .examples-preview {
