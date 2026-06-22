@@ -372,14 +372,14 @@ h3 {
 .stage-main {
   align-items: center;
   display: grid;
-  gap: 18px;
-  grid-template-columns: minmax(210px, 0.72fr) minmax(0, 1fr);
+  gap: 16px;
+  justify-items: center;
 }
 
 .stage-phone {
   justify-self: center;
   margin: 0;
-  width: min(270px, 100%);
+  width: min(390px, 86%);
 }
 
 .stage-phone img {
@@ -391,56 +391,23 @@ h3 {
   width: 100%;
 }
 
-.stage-claims {
-  display: grid;
-  gap: 10px;
+.stage-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
 }
 
-.stage-claims article {
+.stage-summary span {
   background: #f8fbfd;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  padding: 14px;
-}
-
-.stage-claims span {
-  color: var(--green);
-  display: block;
-  font-size: 11px;
+  border-radius: 999px;
+  color: #334155;
+  font-size: 12px;
   font-weight: 900;
-  margin-bottom: 8px;
-}
-
-.stage-claims strong {
-  display: block;
-  font-size: 16px;
-  line-height: 1.2;
-  margin-bottom: 7px;
-}
-
-.stage-claims p {
-  color: var(--muted);
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 1.45;
-  margin: 0;
-}
-
-.stage-previews {
-  display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  margin-top: 16px;
-}
-
-.stage-previews img {
-  background: #f8fbfd;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  height: 130px;
-  object-fit: cover;
-  object-position: top center;
-  width: 100%;
+  line-height: 1.3;
+  padding: 8px 11px;
+  text-align: center;
 }
 
 .demo-frame,
@@ -1022,9 +989,6 @@ h3 {
     width: 100%;
   }
 
-  .stage-main {
-    grid-template-columns: minmax(220px, 0.62fr) minmax(0, 1fr);
-  }
 }
 
 @media (max-width: 640px) {
@@ -1150,24 +1114,8 @@ h3 {
     flex-direction: column;
   }
 
-  .stage-main {
-    grid-template-columns: 1fr;
-  }
-
   .stage-phone {
-    width: min(285px, 100%);
-  }
-
-  .stage-claims article {
-    padding: 12px;
-  }
-
-  .stage-previews {
-    grid-template-columns: 1fr;
-  }
-
-  .stage-previews img {
-    height: 170px;
+    width: min(320px, 92%);
   }
 
   .examples-preview {
