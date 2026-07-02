@@ -287,11 +287,26 @@ h3 {
   transform: translateY(-1px);
 }
 
+.hero-language-note,
 .hero-note {
   color: #64748b;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.45;
+}
+
+.hero-language-note {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: #334155;
+  display: block;
+  margin: 18px 0 10px;
+  max-width: 100%;
+  padding: 8px 12px;
+}
+
+.hero-note {
   margin-bottom: 28px;
 }
 
@@ -407,88 +422,6 @@ h3 {
   box-shadow: 0 28px 70px rgba(17, 24, 39, 0.2);
   object-fit: contain;
   width: 100%;
-}
-
-.voice-demo {
-  display: grid;
-  gap: 8px;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  width: min(520px, 96%);
-}
-
-.voice-turn {
-  align-items: center;
-  background: #fff;
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  box-shadow: 0 12px 28px rgba(17, 24, 39, 0.07);
-  display: grid;
-  gap: 8px;
-  grid-template-columns: 1fr;
-  min-height: 96px;
-  padding: 10px 12px;
-}
-
-.voice-turn > span {
-  color: var(--green);
-  font-size: 11px;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.voice-turn strong {
-  color: #334155;
-  font-size: 13px;
-  line-height: 1.25;
-}
-
-.waveform {
-  align-items: center;
-  display: inline-flex;
-  gap: 3px;
-  grid-column: 1 / -1;
-  height: 18px;
-}
-
-.waveform i {
-  background: var(--blue);
-  border-radius: 999px;
-  display: block;
-  height: 8px;
-  width: 4px;
-}
-
-.waveform i:nth-child(2) {
-  animation-delay: 110ms;
-}
-
-.waveform i:nth-child(3) {
-  animation-delay: 220ms;
-}
-
-.waveform i:nth-child(4) {
-  animation-delay: 330ms;
-}
-
-.waveform i:nth-child(5) {
-  animation-delay: 440ms;
-}
-
-.recording-dot {
-  background: #d92732;
-  border-radius: 999px;
-  height: 12px;
-  justify-self: start;
-  width: 12px;
-}
-
-.candidate-turn,
-.ai-turn {
-  grid-template-columns: 1fr;
-}
-
-.ai-turn {
-  background: #f8fbfd;
 }
 
 .stage-summary {
@@ -1224,15 +1157,6 @@ h3 {
 
   .stage-phone {
     width: min(320px, 92%);
-  }
-
-  .voice-demo {
-    grid-template-columns: 1fr;
-    width: min(320px, 92%);
-  }
-
-  .voice-turn {
-    min-height: 58px;
   }
 
   .examples-preview {
