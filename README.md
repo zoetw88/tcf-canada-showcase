@@ -99,7 +99,7 @@ SpeakCanada AI is designed with privacy, safety, and exam-prep clarity in mind:
 
 ## Built By
 
-SpeakCanada AI is an independent product built by **Zoe**.
+SpeakCanada AI is an independent product built by **[Zoe](https://zoe-site-ten.vercel.app)**, a senior backend engineer building practical AI products.
 
 This public repository is a product showcase. It demonstrates the product, positioning, visual experience, and learner-facing privacy message.
 
