@@ -908,15 +908,15 @@ h3 {
     order: 6;
   }
 
-  .hero-language-note {
+  .hero-qr-grid {
     order: 7;
   }
 
-  .hero-note {
+  .hero-language-note {
     order: 8;
   }
 
-  .hero-qr-grid {
+  .hero-note {
     order: 9;
   }
 
@@ -956,6 +956,20 @@ h3 {
   .image-map-grid,
   .qr-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-qr-grid {
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: none;
+  }
+
+  .hero-qr-grid .qr-placeholder {
+    padding: 10px;
+  }
+
+  .hero-qr-grid .qr-placeholder div {
+    height: 58px;
   }
 
   .evidence-grid {

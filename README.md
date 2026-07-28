@@ -2,9 +2,9 @@
 
 **Independent AI speaking practice for TCF Canada preparation.**
 
-SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a level, practice from past-exam inspired prompt patterns, continue with same-session AI examiner turns, review the full script/report, save reusable examples, and return to related questions.
+SpeakCanada AI helps independent learners preparing for TCF Canada practice French speaking with a fast improvement loop: choose a level, practice from organized TCF-style prompt patterns, continue with same-session AI examiner turns, review the full script/report, save reusable examples, and return to related questions.
 
-[Launch Web App](https://tcf-canada-gamma.vercel.app)
+[Launch Web App](https://speak-canada.com/studio/)
 
 [View Public Landing Page](https://zoetw88.github.io/tcf-canada-showcase/)
 
