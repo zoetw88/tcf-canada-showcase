@@ -8,7 +8,7 @@ SpeakCanada AI helps independent learners preparing for TCF Canada practice Fren
 
 [View Public Landing Page](https://zoetw88.github.io/tcf-canada-showcase/)
 
-![AI speaking feedback flow](assets/ai-speaking-feedback-flow.gif)
+![AI speaking feedback flow](assets/lang/en/ai-speaking-practice-flow.gif)
 
 <p align="center"><em>AI-guided practice flow: prompt bank, same-session examiner turns, full report, saved examples, and related question recommendation.</em></p>
 

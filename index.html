@@ -19,7 +19,7 @@
     <meta name="theme-color" content="#111827" />
     <title>SpeakCanada AI | TCF Canada Speaking Practice</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=20260702-real-product-gif" />
+    <link rel="stylesheet" href="styles.css?v=20260728-product-story" />
   </head>
   <body>
     <header class="site-header">
@@ -27,10 +27,8 @@
         <span>SpeakCanada AI</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#product" data-i18n="nav.product">Product</a>
-        <a href="#ai" data-i18n="nav.ai">AI feedback</a>
-        <a href="#growth" data-i18n="nav.growth">Growth loop</a>
-        <a href="#readiness" data-i18n="nav.flow">Study flow</a>
+        <a href="#top" data-i18n="nav.product">Product</a>
+        <a href="#evidence" data-i18n="nav.ai">AI feedback</a>
         <a href="#privacy" data-i18n="nav.privacy">Privacy</a>
       </nav>
       <div class="language-switcher" aria-label="Language selector">
@@ -101,70 +99,19 @@
 
         <div class="hero-media" aria-label="Real product GIF demo">
           <figure class="hero-demo">
-            <img src="assets/ai-speaking-feedback-flow.gif" alt="Real product GIF showing prompt bank, answer-based AI follow-up, saved example recommendation, and mobile review flow" />
-            <figcaption data-i18n="demo.caption">Product GIF: prompt bank -> answer-based follow-up -> actual example recommendation -> mobile flow</figcaption>
+            <img data-image-key="heroGif" src="assets/lang/en/ai-speaking-practice-flow.gif" alt="Real product GIF showing the candidate answer, same-session AI follow-up, final score, and next practice plan" />
+            <figcaption data-i18n="demo.caption">Real product flow: answer -> same-session AI follow-up -> final report -> next practice</figcaption>
           </figure>
         </div>
       </section>
 
-      <section class="section compact" id="product">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="workflow.eyebrow">Product workflow</p>
-          <h2 data-i18n="workflow.title">From past prompt patterns to related practice loops.</h2>
-        </div>
-        <div class="workflow" aria-label="SpeakCanada AI practice workflow">
-          <article>
-            <span>01</span>
-            <h3 data-i18n="workflow.oneTitle">Browse prompt patterns</h3>
-            <p data-i18n="workflow.oneText">Past-exam inspired speaking prompts are collected into a practical study bank.</p>
-          </article>
-          <article>
-            <span>02</span>
-            <h3 data-i18n="workflow.twoTitle">Filter by topic</h3>
-            <p data-i18n="workflow.twoText">Questions are classified by task, topic, subtopic, and similar prompt groups.</p>
-          </article>
-          <article>
-            <span>03</span>
-            <h3 data-i18n="workflow.threeTitle">Practice with AI turns</h3>
-            <p data-i18n="workflow.threeText">AI feedback creates follow-up questions so one answer becomes a short interaction.</p>
-          </article>
-          <article>
-            <span>04</span>
-            <h3 data-i18n="workflow.fourTitle">Save examples</h3>
-            <p data-i18n="workflow.fourText">Reusable personal examples help the app recommend related prompts for review.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="split-section growth-section" id="growth">
-        <figure class="product-preview growth-preview">
-          <img data-image-key="report" src="assets/lang/en/t1-report.png" alt="Real product report screen showing next practice loop, transcript, saved example, and related prompt recommendation" />
-          <figcaption data-i18n="growth.caption">Real report screen: score, next loop, script, saved example recommendation.</figcaption>
-        </figure>
-        <div>
-          <p class="eyebrow" data-i18n="growth.eyebrow">Growth loop</p>
-          <h2 data-i18n="growth.title">The report now points learners to the next practice action.</h2>
-          <p data-i18n="growth.text">
-            The strongest product loop is not just scoring. After a full oral round, learners see
-            the script, save reusable examples, review matched examples, and jump into a related or
-            weak-area prompt.
-          </p>
-          <ul class="check-list">
-            <li data-i18n="growth.itemOne">Full script after the round, including examiner and candidate turns</li>
-            <li data-i18n="growth.itemTwo">Saved examples shown directly from the final report</li>
-            <li data-i18n="growth.itemThree">Related prompt recommendation becomes the next action</li>
-            <li data-i18n="growth.itemFour">Client failures are monitored through Sentry and internal telemetry</li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section evidence" aria-label="Real product evidence">
+      <section class="section evidence" id="evidence" aria-label="Real product evidence">
         <div class="section-heading">
           <p class="eyebrow" data-i18n="evidence.eyebrow">Real product screens</p>
           <h2 data-i18n="evidence.title">The key claims are shown with actual app screens.</h2>
           <p data-i18n="evidence.text">
             The public page uses real product captures: prompt bank organization, same-session AI
-            turns, saved examples, and mobile review flow.
+            turns, saved examples, and the final report-to-next-practice loop.
           </p>
         </div>
         <div class="evidence-grid">
@@ -193,50 +140,13 @@
             </div>
           </article>
           <article>
-            <img src="assets/mobile-preview.png" alt="Real mobile product screen showing prompt filters, prompt cards, saved-heart action, and practice entry" />
+            <img data-image-key="report" src="assets/lang/en/t1-report.png" alt="Real product report screen showing score, complete transcript, saved example, and related practice recommendation" />
             <div>
-              <span data-i18n="evidence.mobileLabel">Mobile flow</span>
-              <h3 data-i18n="evidence.mobileTitle">Practice and review continue on smaller screens.</h3>
-              <p data-i18n="evidence.mobileText">The core loop stays available for mobile testing and future app-store rollout.</p>
+              <span data-i18n="evidence.reportLabel">Final report</span>
+              <h3 data-i18n="evidence.reportTitle">The full conversation becomes the next practice plan.</h3>
+              <p data-i18n="evidence.reportText">Scores, examiner and candidate turns, saved examples, and related prompts stay together after the round.</p>
             </div>
           </article>
-        </div>
-      </section>
-
-      <section class="split-section" id="ai">
-        <div>
-          <p class="eyebrow" data-i18n="ai.eyebrow">AI interaction and topic memory</p>
-          <h2 data-i18n="ai.title">T1 and T3 can continue after the answer; T2 is interactive from the start.</h2>
-          <p data-i18n="ai.text">
-            SpeakCanada AI is designed for learners who practice alone but still need interaction.
-            After a T1 or T3 answer, the app can generate examiner-style follow-up questions from
-            the learner's own details, reasons, or examples. T2 works as a live multi-turn
-            conversation with the simulated examiner.
-          </p>
-          <ul class="check-list">
-            <li data-i18n="ai.itemOne">Past-exam inspired speaking prompts without claiming official affiliation</li>
-            <li data-i18n="ai.itemTwo">T1/T3 follow-up questions based on the learner's answer</li>
-            <li data-i18n="ai.itemT2">T2 interactive dialogue with examiner-style turns</li>
-            <li data-i18n="ai.itemThree">Topic classification for task, theme, subtopic, and similar prompts</li>
-            <li data-i18n="ai.itemFour">Saved personal examples that support related question recommendations</li>
-          </ul>
-        </div>
-        <figure class="product-preview">
-          <img class="desktop-preview" data-image-key="t2Script" src="assets/lang/en/t2-script.png" alt="Real product T2 examiner and candidate dialogue transcript preview" />
-          <figcaption data-i18n="ai.caption">Real app dialogue screen: examiner and candidate turns stay in one interview flow.</figcaption>
-        </figure>
-      </section>
-
-      <section class="split-section examples-section" id="readiness">
-        <img class="examples-preview" src="assets/product-saved-examples.png" alt="Real product screen showing a saved personal example matched to a related speaking prompt" />
-        <div>
-          <p class="eyebrow" data-i18n="readiness.eyebrow">Practice, review, repeat</p>
-          <h2 data-i18n="readiness.title">Save useful examples and find related questions faster.</h2>
-          <p data-i18n="readiness.text">
-            The experience stays focused on the learner's next useful action: pick a categorized
-            speaking question, answer in French, save a reusable example, and return to related
-            prompts that practice the same theme from another angle.
-          </p>
         </div>
       </section>
 
@@ -304,7 +214,7 @@
           "demo.calloutLabel": "Real product loop",
           "demo.calloutTitle": "Prompt bank, AI follow-up, example-to-prompt recommendation.",
           "demo.calloutText": "The GIF keeps each product point on its own clean screen.",
-          "demo.caption": "Product GIF: prompt bank -> answer-based follow-up -> actual example recommendation -> mobile flow",
+          "demo.caption": "Real product flow: answer -> same-session AI follow-up -> final report -> next practice",
           "demo.pointOne": "Prompt bank",
           "demo.pointTwo": "Same-session AI turns",
           "demo.pointThree": "Saved example match",
@@ -329,7 +239,7 @@
           "growth.caption": "Real report screen: score, next loop, script, saved example recommendation.",
           "evidence.eyebrow": "Real product screens",
           "evidence.title": "The key claims are shown with actual app screens.",
-          "evidence.text": "The public page uses real product captures: prompt bank organization, same-session AI turns, saved examples, and mobile review flow.",
+          "evidence.text": "The public page uses real product captures: prompt bank organization, same-session AI turns, saved examples, and the final report-to-next-practice loop.",
           "evidence.bankLabel": "Prompt bank",
           "evidence.bankTitle": "Past-exam inspired questions organized by topic.",
           "evidence.bankText": "Task, time, topic, source, and similar prompt groups help learners find focused practice.",
@@ -339,15 +249,12 @@
           "evidence.timedLabel": "Timed follow-up",
           "evidence.timedTitle": "Follow-ups share the official task window.",
           "evidence.timedText": "T1 main answer plus follow-ups stay inside 2:00. T3 main answer plus follow-ups stay inside 4:30. Learners can stop early, with a warning that short answers may affect the estimate.",
-          "evidence.reportLabel": "Composite report",
-          "evidence.reportTitle": "The report appears after the follow-up sequence.",
-          "evidence.reportText": "The final report combines the main answer and practiced follow-ups, while still allowing optional extra follow-up practice.",
           "evidence.savedLabel": "Saved examples",
           "evidence.savedTitle": "Saved examples recommend related speaking prompts.",
           "evidence.savedText": "The example “veg-friend-cafe” is matched to a vegetarian restaurant prompt from the recommendation eval set.",
-          "evidence.mobileLabel": "Mobile flow",
-          "evidence.mobileTitle": "Practice and review continue on smaller screens.",
-          "evidence.mobileText": "The core loop stays available for mobile testing and future app-store rollout.",
+          "evidence.reportLabel": "Final report",
+          "evidence.reportTitle": "The full conversation becomes the next practice plan.",
+          "evidence.reportText": "Scores, examiner and candidate turns, saved examples, and related prompts stay together after the round.",
           "imageMap.label": "Image evidence map",
           "imageMap.text": "Each showcase image is paired with the product claim it supports and the languages covered in production smoke tests.",
           "imageMap.bankTitle": "Prompt bank screen",
@@ -413,7 +320,7 @@
           "demo.calloutLabel": "真實產品流程",
           "demo.calloutTitle": "題庫、AI 追問、例子推薦相關題目。",
           "demo.calloutText": "GIF 把每個產品重點拆成乾淨的單一畫面。",
-          "demo.caption": "產品 GIF：題庫 -> 根據回答追問 -> 實際例子推薦題目 -> 手機流程",
+          "demo.caption": "真實產品流程：回答 -> 同一場 AI 追問 -> 最終報告 -> 下一次練習",
           "demo.pointOne": "題庫整理",
           "demo.pointTwo": "同場 AI 互動",
           "demo.pointThree": "例子匹配題目",
@@ -438,7 +345,7 @@
           "growth.caption": "真實報告頁：分數、下一次循環、script、保存例子推薦。",
           "evidence.eyebrow": "真實產品畫面",
           "evidence.title": "每個重點都用實際 App 截圖呈現。",
-          "evidence.text": "公開頁使用真實產品截圖：題庫整理、同一場 AI 互動、保存例子，以及手機檢視流程。",
+          "evidence.text": "公開頁使用真實產品截圖：題庫整理、同一場 AI 互動、保存例子，以及從最終報告進入下一次練習的流程。",
           "evidence.bankLabel": "題庫",
           "evidence.bankTitle": "過去題目方向依主題整理。",
           "evidence.bankText": "任務、時間、主題、來源和相似題型，幫助學習者找到更聚焦的練習。",
@@ -448,15 +355,12 @@
           "evidence.timedLabel": "限時追問",
           "evidence.timedTitle": "追問共用官方任務時間。",
           "evidence.timedText": "T1 主回答加追問維持在 2:00 內；T3 主回答加追問維持在 4:30 內。學習者可提早 Stop，但短答會跳出可能影響評估的提醒。",
-          "evidence.reportLabel": "合成報告",
-          "evidence.reportTitle": "追問流程後才顯示完整報告。",
-          "evidence.reportText": "最後報告會合成主回答與已完成追問；使用者仍可在報告後繼續做額外追問練習。",
           "evidence.savedLabel": "保存例子",
           "evidence.savedTitle": "保存例子會推薦相關口說題。",
           "evidence.savedText": "實際例子「veg-friend-cafe」會被配對到素食餐廳相關題，這組也在推薦評估資料中測試。",
-          "evidence.mobileLabel": "手機流程",
-          "evidence.mobileTitle": "小螢幕也能繼續練習與複習。",
-          "evidence.mobileText": "核心練習循環可延伸到手機測試與未來上架。",
+          "evidence.reportLabel": "最終報告",
+          "evidence.reportTitle": "完整對話會變成下一輪練習計畫。",
+          "evidence.reportText": "評分、考官與考生對話、保存例子及相關題目會在練習結束後整合在一起。",
           "imageMap.label": "圖片證據地圖",
           "imageMap.text": "每張 showcase 圖片都對應一個產品主張，並標示 production smoke test 已覆蓋的語言。",
           "imageMap.bankTitle": "題庫畫面",
@@ -526,7 +430,7 @@
         "demo.calloutLabel": "真实产品流程",
         "demo.calloutTitle": "题库、AI 追问、例子推荐相关题目。",
         "demo.calloutText": "GIF 把每个产品重点拆成干净的单一画面。",
-        "demo.caption": "产品 GIF：题库 -> 根据回答追问 -> 实际例子推荐题目 -> 手机流程",
+        "demo.caption": "真实产品流程：回答 -> 同一场 AI 追问 -> 最终报告 -> 下一次练习",
         "demo.pointOne": "题库整理",
         "demo.pointTwo": "同场 AI 互动",
         "demo.pointThree": "例子匹配题目",
@@ -551,7 +455,7 @@
         "growth.caption": "真实报告页：分数、下一次循环、script、保存例子推荐。",
         "evidence.eyebrow": "真实产品画面",
         "evidence.title": "每个重点都用实际 App 截图呈现。",
-        "evidence.text": "公开页使用真实产品截图：题库整理、同一场 AI 互动、保存例子，以及手机查看流程。",
+        "evidence.text": "公开页使用真实产品截图：题库整理、同一场 AI 互动、保存例子，以及从最终报告进入下一次练习的流程。",
         "evidence.bankLabel": "题库",
         "evidence.bankTitle": "过去题目方向按主题整理。",
         "evidence.bankText": "任务、时间、主题、来源和相似题型，帮助学习者找到更聚焦的练习。",
@@ -561,15 +465,12 @@
         "evidence.timedLabel": "限时追问",
         "evidence.timedTitle": "追问共用官方任务时间。",
         "evidence.timedText": "T1 主回答加追问维持在 2:00 内；T3 主回答加追问维持在 4:30 内。学习者可提前 Stop，但短答会弹出可能影响评估的提醒。",
-        "evidence.reportLabel": "合成报告",
-        "evidence.reportTitle": "追问流程后才显示完整报告。",
-        "evidence.reportText": "最后报告会合成主回答与已完成追问；用户仍可在报告后继续做额外追问练习。",
         "evidence.savedLabel": "保存例子",
         "evidence.savedTitle": "保存例子会推荐相关口语题。",
         "evidence.savedText": "实际例子“veg-friend-cafe”会被配对到素食餐厅相关题，这组也在推荐评估资料中测试。",
-        "evidence.mobileLabel": "手机流程",
-        "evidence.mobileTitle": "小屏幕也能继续练习与复习。",
-        "evidence.mobileText": "核心练习循环可延伸到手机测试与未来上架。",
+        "evidence.reportLabel": "最终报告",
+        "evidence.reportTitle": "完整对话会变成下一轮练习计划。",
+        "evidence.reportText": "评分、考官与考生对话、保存例子及相关题目会在练习结束后整合在一起。",
         "imageMap.label": "图片证据地图",
         "imageMap.text": "每张 showcase 图片都对应一个产品主张，并标示 production smoke test 已覆盖的语言。",
         "imageMap.bankTitle": "题库画面",
@@ -637,7 +538,7 @@
         "demo.calloutLabel": "Vrai parcours produit",
         "demo.calloutTitle": "Banque de sujets, suivi IA, recommandation exemple-sujet.",
         "demo.calloutText": "Le GIF separe chaque point produit sur un ecran clair.",
-        "demo.caption": "GIF produit : banque de sujets -> suivi base sur la reponse -> exemple reel recommande -> parcours mobile",
+        "demo.caption": "Parcours produit reel : reponse -> relance IA dans la meme session -> rapport final -> prochaine pratique",
         "demo.pointOne": "Banque de sujets",
         "demo.pointTwo": "Tours IA en session",
         "demo.pointThree": "Exemple associe",
@@ -662,7 +563,7 @@
         "growth.caption": "Vrai ecran de rapport : score, boucle suivante, script et exemple recommande.",
         "evidence.eyebrow": "Vrais ecrans produit",
         "evidence.title": "Les points cles sont montres avec de vrais ecrans de l'app.",
-        "evidence.text": "La page publique utilise de vraies captures : banque de sujets, tours IA en session, exemples sauvegardes et parcours mobile.",
+        "evidence.text": "La page publique utilise de vraies captures : banque de sujets, echanges IA dans la meme session, exemples sauvegardes et passage du rapport final a la prochaine pratique.",
         "evidence.bankLabel": "Banque de sujets",
         "evidence.bankTitle": "Questions inspirees d'anciens examens, classees par theme.",
         "evidence.bankText": "Tache, duree, theme, source et groupes similaires aident a trouver une pratique ciblee.",
@@ -672,15 +573,12 @@
         "evidence.timedLabel": "Suivi minute",
         "evidence.timedTitle": "Les suivis partagent la duree officielle.",
         "evidence.timedText": "La reponse principale et les suivis restent dans 2:00 pour T1 et 4:30 pour T3. L'apprenant peut s'arreter plus tot, avec un avertissement sur l'effet possible d'une reponse courte.",
-        "evidence.reportLabel": "Rapport composite",
-        "evidence.reportTitle": "Le rapport apparait apres la sequence de suivi.",
-        "evidence.reportText": "Le rapport final combine la reponse principale et les suivis pratiques, avec la possibilite de continuer des suivis optionnels.",
         "evidence.savedLabel": "Exemples sauvegardes",
         "evidence.savedTitle": "Les exemples sauvegardes recommandent des sujets lies.",
         "evidence.savedText": "L'exemple « veg-friend-cafe » est associe a un sujet sur les repas vegetariens dans les restaurants, aussi couvert par l'eval de recommandation.",
-        "evidence.mobileLabel": "Parcours mobile",
-        "evidence.mobileTitle": "La pratique et la revision continuent sur petit ecran.",
-        "evidence.mobileText": "La boucle principale reste disponible pour les tests mobiles et le futur lancement app-store.",
+        "evidence.reportLabel": "Rapport final",
+        "evidence.reportTitle": "Toute la conversation devient le prochain plan d'entraînement.",
+        "evidence.reportText": "Le score, les échanges, les exemples enregistrés et les sujets associés restent réunis après l'exercice.",
         "imageMap.label": "Carte des images",
         "imageMap.text": "Chaque image du showcase est reliee au point produit qu'elle prouve et aux langues couvertes par les smoke tests de production.",
         "imageMap.bankTitle": "Ecran banque de sujets",
@@ -748,7 +646,7 @@
         "demo.calloutLabel": "Real product loop",
         "demo.calloutTitle": "Prompt bank, AI follow-up, example-to-prompt recommendation.",
         "demo.calloutText": "GIF har product point ko clean screen par dikhata hai.",
-        "demo.caption": "Product GIF: prompt bank -> answer-based follow-up -> real example recommendation -> mobile flow",
+        "demo.caption": "Real product flow: answer -> same-session AI follow-up -> final report -> next practice",
         "demo.pointOne": "Prompt bank",
         "demo.pointTwo": "Same-session AI turns",
         "demo.pointThree": "Saved example match",
@@ -773,7 +671,7 @@
         "growth.caption": "Real report screen: score, next loop, script, saved example recommendation.",
         "evidence.eyebrow": "Real product screens",
         "evidence.title": "Key claims actual app screens se dikhaye gaye hain.",
-        "evidence.text": "Public page real product captures use karta hai: prompt bank organization, same-session AI turns, saved examples, aur mobile review flow.",
+        "evidence.text": "Public page real product captures use karta hai: prompt bank organization, same-session AI turns, saved examples, aur final report se next practice loop.",
         "evidence.bankLabel": "Prompt bank",
         "evidence.bankTitle": "Past-exam inspired questions topic ke hisaab se organized.",
         "evidence.bankText": "Task, time, topic, source, aur similar prompt groups learners ko focused practice dhoondhne mein help karte hain.",
@@ -783,15 +681,12 @@
         "evidence.timedLabel": "Timed follow-up",
         "evidence.timedTitle": "Follow-ups official task window share karte hain.",
         "evidence.timedText": "T1 main answer plus follow-ups 2:00 ke andar rehte hain. T3 main answer plus follow-ups 4:30 ke andar rehte hain. Learners early stop kar sakte hain, short answer warning ke saath.",
-        "evidence.reportLabel": "Composite report",
-        "evidence.reportTitle": "Report follow-up sequence ke baad dikhta hai.",
-        "evidence.reportText": "Final report main answer aur practiced follow-ups ko combine karta hai, aur optional extra follow-up practice allow karta hai.",
         "evidence.savedLabel": "Saved examples",
         "evidence.savedTitle": "Saved examples related speaking prompts recommend karte hain.",
         "evidence.savedText": "Example “veg-friend-cafe” vegetarian restaurant prompt se matched hai.",
-        "evidence.mobileLabel": "Mobile flow",
-        "evidence.mobileTitle": "Practice aur review smaller screens par bhi continue hota hai.",
-        "evidence.mobileText": "Core loop mobile testing aur future app-store rollout ke liye available rehta hai.",
+        "evidence.reportLabel": "अंतिम रिपोर्ट",
+        "evidence.reportTitle": "पूरी बातचीत अगली अभ्यास योजना बन जाती है।",
+        "evidence.reportText": "अंक, परीक्षक और अभ्यर्थी के संवाद, सहेजे गए उदाहरण और संबंधित प्रश्न अभ्यास के बाद एक साथ रहते हैं।",
         "ai.eyebrow": "AI interaction aur topic memory",
         "ai.title": "T1 aur T3 answer ke baad continue kar sakte hain; T2 start se interactive hai.",
         "ai.text": "SpeakCanada AI un learners ke liye hai jo alone practice karte hain par interaction chahte hain. T1/T3 answer ke baad app details, reasons, ya examples se examiner-style follow-up questions generate kar sakta hai. T2 simulated examiner ke saath live multi-turn conversation hai.",
@@ -848,7 +743,7 @@
         "demo.calloutLabel": "حلقة منتج حقيقية",
         "demo.calloutTitle": "بنك أسئلة، متابعة AI، وتوصية من المثال إلى السؤال.",
         "demo.calloutText": "يعرض GIF كل نقطة في شاشة نظيفة منفصلة.",
-        "demo.caption": "GIF المنتج: بنك الأسئلة -> متابعة مبنية على الإجابة -> توصية مثال حقيقي -> مسار الهاتف",
+        "demo.caption": "مسار المنتج الحقيقي: الإجابة -> متابعة AI في الجلسة نفسها -> التقرير النهائي -> التدريب التالي",
         "demo.pointOne": "بنك الأسئلة",
         "demo.pointTwo": "حوار AI في نفس الجلسة",
         "demo.pointThree": "مطابقة مثال محفوظ",
@@ -873,7 +768,7 @@
         "growth.caption": "شاشة تقرير حقيقية: الدرجة، الحلقة التالية، النص، وتوصية المثال.",
         "evidence.eyebrow": "شاشات منتج حقيقية",
         "evidence.title": "كل وعد أساسي معروض بلقطات فعلية من التطبيق.",
-        "evidence.text": "تستخدم الصفحة العامة لقطات حقيقية: تنظيم بنك الأسئلة، حوار AI في نفس الجلسة، الأمثلة المحفوظة، ومسار المراجعة على الهاتف.",
+        "evidence.text": "تستخدم الصفحة العامة لقطات حقيقية: تنظيم بنك الأسئلة، حوار AI في الجلسة نفسها، الأمثلة المحفوظة، والانتقال من التقرير النهائي إلى التدريب التالي.",
         "evidence.bankLabel": "بنك الأسئلة",
         "evidence.bankTitle": "أسئلة مستوحاة من أنماط سابقة ومنظمة حسب الموضوع.",
         "evidence.bankText": "المهمة والوقت والموضوع والمصدر والمجموعات المتشابهة تساعد المتعلم على تدريب مركز.",
@@ -883,15 +778,12 @@
         "evidence.timedLabel": "متابعة محددة الوقت",
         "evidence.timedTitle": "المتابعات تشارك نافذة وقت المهمة الرسمية.",
         "evidence.timedText": "إجابة T1 الرئيسية مع المتابعات تبقى ضمن 2:00. وإجابة T3 مع المتابعات تبقى ضمن 4:30. يمكن التوقف مبكرا مع تنبيه أن الإجابة القصيرة قد تؤثر على التقدير.",
-        "evidence.reportLabel": "تقرير مركب",
-        "evidence.reportTitle": "يظهر التقرير بعد تسلسل المتابعة.",
-        "evidence.reportText": "يجمع التقرير النهائي الإجابة الرئيسية والمتابعات التي تم التدريب عليها، مع إمكانية متابعة تدريب إضافي اختياري.",
         "evidence.savedLabel": "أمثلة محفوظة",
         "evidence.savedTitle": "الأمثلة المحفوظة تقترح أسئلة محادثة مرتبطة.",
         "evidence.savedText": "المثال “veg-friend-cafe” مرتبط بسؤال عن مطعم نباتي.",
-        "evidence.mobileLabel": "مسار الهاتف",
-        "evidence.mobileTitle": "التدريب والمراجعة يستمران على الشاشات الصغيرة.",
-        "evidence.mobileText": "تبقى الحلقة الأساسية متاحة لاختبار الهاتف وللإطلاق المستقبلي في المتاجر.",
+        "evidence.reportLabel": "التقرير النهائي",
+        "evidence.reportTitle": "تتحول المحادثة الكاملة إلى خطة التدريب التالية.",
+        "evidence.reportText": "تبقى الدرجات وحوار الممتحن والمتعلم والأمثلة المحفوظة والأسئلة المرتبطة معًا بعد انتهاء التدريب.",
         "ai.eyebrow": "تفاعل AI وذاكرة المواضيع",
         "ai.title": "يمكن أن يستمر T1 وT3 بعد الإجابة؛ وT2 تفاعلي من البداية.",
         "ai.text": "صمم SpeakCanada AI للمتعلمين الذين يتدربون وحدهم لكنهم يحتاجون إلى تفاعل. بعد إجابة T1 أو T3، يستطيع التطبيق توليد أسئلة متابعة من التفاصيل أو الأسباب أو الأمثلة التي ذكرها المتعلم. أما T2 فهو محادثة متعددة الجولات مع ممتحن محاكى.",
@@ -948,7 +840,7 @@
         "demo.calloutLabel": "Real product loop",
         "demo.calloutTitle": "Prompt bank, AI follow-up, example-to-prompt recommendation.",
         "demo.calloutText": "Malinaw na ipinapakita ng GIF ang bawat product point.",
-        "demo.caption": "Product GIF: prompt bank -> answer-based follow-up -> actual example recommendation -> mobile flow",
+        "demo.caption": "Real product flow: answer -> same-session AI follow-up -> final report -> next practice",
         "demo.pointOne": "Prompt bank",
         "demo.pointTwo": "Same-session AI turns",
         "demo.pointThree": "Saved example match",
@@ -973,7 +865,7 @@
         "growth.caption": "Real report screen: score, next loop, script, saved example recommendation.",
         "evidence.eyebrow": "Real product screens",
         "evidence.title": "Actual app screens ang nagpapakita ng key claims.",
-        "evidence.text": "Real product captures ang gamit ng public page: prompt bank organization, same-session AI turns, saved examples, at mobile review flow.",
+        "evidence.text": "Real product captures ang gamit ng public page: prompt bank organization, same-session AI turns, saved examples, at final report papunta sa next practice.",
         "evidence.bankLabel": "Prompt bank",
         "evidence.bankTitle": "Past-exam inspired questions organized by topic.",
         "evidence.bankText": "Task, time, topic, source, at similar prompt groups help learners find focused practice.",
@@ -983,15 +875,12 @@
         "evidence.timedLabel": "Timed follow-up",
         "evidence.timedTitle": "Follow-ups share the official task window.",
         "evidence.timedText": "T1 main answer plus follow-ups stay inside 2:00. T3 main answer plus follow-ups stay inside 4:30. Learners can stop early, with a warning that short answers may affect the estimate.",
-        "evidence.reportLabel": "Composite report",
-        "evidence.reportTitle": "Lumilitaw ang report after the follow-up sequence.",
-        "evidence.reportText": "Pinagsasama ng final report ang main answer at practiced follow-ups, habang may optional extra follow-up practice pa rin.",
         "evidence.savedLabel": "Saved examples",
         "evidence.savedTitle": "Saved examples recommend related speaking prompts.",
         "evidence.savedText": "The example “veg-friend-cafe” is matched to a vegetarian restaurant prompt.",
-        "evidence.mobileLabel": "Mobile flow",
-        "evidence.mobileTitle": "Practice and review continue on smaller screens.",
-        "evidence.mobileText": "Available ang core loop for mobile testing and future app-store rollout.",
+        "evidence.reportLabel": "Panghuling ulat",
+        "evidence.reportTitle": "Nagiging susunod na plano sa pagsasanay ang buong pag-uusap.",
+        "evidence.reportText": "Magkakasama pagkatapos ng pagsasanay ang marka, usapan, mga naka-save na halimbawa, at kaugnay na tanong.",
         "ai.eyebrow": "AI interaction and topic memory",
         "ai.title": "T1 and T3 can continue after the answer; T2 is interactive from the start.",
         "ai.text": "SpeakCanada AI is designed for learners na solo mag-practice pero kailangan pa rin ng interaction. After a T1 or T3 answer, the app can generate examiner-style follow-up questions from the learner's own details, reasons, or examples. T2 works as a live multi-turn conversation with the simulated examiner.",
@@ -1048,7 +937,7 @@
         "demo.calloutLabel": "Real product loop",
         "demo.calloutTitle": "Prompt bank، AI follow-up، example-to-prompt recommendation.",
         "demo.calloutText": "GIF ہر product point کو clean screen میں دکھاتا ہے۔",
-        "demo.caption": "Product GIF: prompt bank -> answer-based follow-up -> actual example recommendation -> mobile flow",
+        "demo.caption": "Real product flow: answer -> same-session AI follow-up -> final report -> next practice",
         "demo.pointOne": "Prompt bank",
         "demo.pointTwo": "Same-session AI turns",
         "demo.pointThree": "Saved example match",
@@ -1073,7 +962,7 @@
         "growth.caption": "Real report screen: score، next loop، script، saved example recommendation.",
         "evidence.eyebrow": "Real product screens",
         "evidence.title": "Key claims actual app screens سے دکھائے گئے ہیں۔",
-        "evidence.text": "Public page real product captures use کرتا ہے: prompt bank organization، same-session AI turns، saved examples، اور mobile review flow.",
+        "evidence.text": "Public page real product captures use کرتا ہے: prompt bank organization، same-session AI turns، saved examples، اور final report سے next practice loop۔",
         "evidence.bankLabel": "Prompt bank",
         "evidence.bankTitle": "Past-exam inspired questions topic کے حساب سے organized.",
         "evidence.bankText": "Task، time، topic، source، اور similar prompt groups learners کو focused practice ڈھونڈنے میں help کرتے ہیں۔",
@@ -1083,15 +972,12 @@
         "evidence.timedLabel": "Timed follow-up",
         "evidence.timedTitle": "Follow-ups official task window share کرتے ہیں۔",
         "evidence.timedText": "T1 main answer plus follow-ups 2:00 کے اندر رہتے ہیں۔ T3 main answer plus follow-ups 4:30 کے اندر رہتے ہیں۔ Learners early stop کر سکتے ہیں، short answer warning کے ساتھ۔",
-        "evidence.reportLabel": "Composite report",
-        "evidence.reportTitle": "Report follow-up sequence کے بعد آتا ہے۔",
-        "evidence.reportText": "Final report main answer اور practiced follow-ups کو combine کرتا ہے، while optional extra follow-up practice available رہتی ہے۔",
         "evidence.savedLabel": "Saved examples",
         "evidence.savedTitle": "Saved examples related speaking prompts recommend کرتے ہیں۔",
         "evidence.savedText": "Example “veg-friend-cafe” vegetarian restaurant prompt سے matched ہے۔",
-        "evidence.mobileLabel": "Mobile flow",
-        "evidence.mobileTitle": "Practice اور review smaller screens پر بھی continue ہوتا ہے۔",
-        "evidence.mobileText": "Core loop mobile testing اور future app-store rollout کے لیے available رہتا ہے۔",
+        "evidence.reportLabel": "حتمی رپورٹ",
+        "evidence.reportTitle": "مکمل گفتگو اگلی مشق کا منصوبہ بن جاتی ہے۔",
+        "evidence.reportText": "اسکور، ممتحن اور امیدوار کی گفتگو، محفوظ مثالیں اور متعلقہ سوالات مشق کے بعد ایک جگہ رہتے ہیں۔",
         "ai.eyebrow": "AI interaction اور topic memory",
         "ai.title": "T1 اور T3 answer کے بعد continue کر سکتے ہیں؛ T2 start سے interactive ہے۔",
         "ai.text": "SpeakCanada AI ان learners کے لیے ہے جو اکیلے practice کرتے ہیں مگر interaction چاہتے ہیں۔ T1/T3 answer کے بعد app learner کی details، reasons، یا examples سے examiner-style follow-up questions generate کر سکتا ہے۔ T2 simulated examiner کے ساتھ live multi-turn conversation ہے۔",
@@ -1119,6 +1005,7 @@
       const availableLanguages = ["en", "zh-Hant", "zh-Hans", "fr", "hi", "ar", "tl", "ur"];
       const languageButtons = document.querySelectorAll("[data-lang]");
       const localizedProductImages = {
+        heroGif: "ai-speaking-practice-flow.gif",
         report: "t1-report.png",
         t2Report: "t2-report.png",
         t2Script: "t2-script.png",
